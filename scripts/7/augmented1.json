@@ -1,0 +1,4139 @@
+[
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "whatsapp-group-llm-graph",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                },
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                },
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                },
+                {
+                  "profile": {
+                    "name": "Usman Tariq"
+                  },
+                  "wa_id": "923217778899"
+                },
+                {
+                  "profile": {
+                    "name": "Ayesha Malik"
+                  },
+                  "wa_id": "923459991122"
+                },
+                {
+                  "profile": {
+                    "name": "Hassan Ahmed"
+                  },
+                  "wa_id": "923118887766"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923334445566",
+                  "id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe",
+                  "timestamp": "1765631599",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.0a30ed2003b948278ab0f23aef2d3f0f",
+                  "timestamp": "1765631624",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.3420a84539014818bd116d7824f67742",
+                  "timestamp": "1765631644",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.0a30ed2003b948278ab0f23aef2d3f0f"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.47da0a5f5a4e4a35ac378d5c9f7f248e",
+                  "timestamp": "1765631673",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6",
+                  "timestamp": "1765631731",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c176ec57f43b4b1cb1ea972c217477cb",
+                  "timestamp": "1765631753",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4846826431e54a2783e174eb90b3e53e",
+                  "timestamp": "1765631838",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.d284f6f35c5f42399b3f8c40111cbece",
+                  "timestamp": "1765631905",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.a425f6b6aa0346a2b9cbf2afac0a70f7",
+                  "timestamp": "1765631960",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.0a30ed2003b948278ab0f23aef2d3f0f"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.2fd066d929e0488a90ded3f4226ee1d0",
+                  "timestamp": "1765632044",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d284f6f35c5f42399b3f8c40111cbece"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.b66f3c05ad1a4d188ea5fd7e0ac21eb1",
+                  "timestamp": "1765632130",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.b299ef58f79d4a37a305eb6579716d47",
+                  "timestamp": "1765632212",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.d5ff86f3840d41f98d5c2e5e6ffe5f03",
+                  "timestamp": "1765632298",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9d420a715c8e496caac984d42f652a11",
+                  "timestamp": "1765632351",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.bfffe4c43bd346f48d354cab141bea00",
+                  "timestamp": "1765632411",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4846826431e54a2783e174eb90b3e53e"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.09deea345c714dbabe968434f81031b2",
+                  "timestamp": "1765632436",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.fd1ac2cb8e174ab49ade5d91ffccb07b",
+                  "timestamp": "1765632520",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.09deea345c714dbabe968434f81031b2"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c3b7f5950eba4601a580621fe1486237",
+                  "timestamp": "1765632586",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.44870bf87f9848b793fdceeca7897565",
+                  "timestamp": "1765632657",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9d420a715c8e496caac984d42f652a11"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.3118e04cce604ecab2d2c4a6c747609c",
+                  "timestamp": "1765632712",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.c8676d27a1454ed39dafc88801b9253a",
+                  "timestamp": "1765632769",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b299ef58f79d4a37a305eb6579716d47"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.d730e766a8c44f30a0ac8b173c468549",
+                  "timestamp": "1765632838",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.09deea345c714dbabe968434f81031b2"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.24d68ef9ae2145d3afbe2e997f3c4199",
+                  "timestamp": "1765632892",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.9dac9b62ba6847c0998d45003c49dd5b",
+                  "timestamp": "1765632914",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3420a84539014818bd116d7824f67742"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf",
+                  "timestamp": "1765632938",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.45545bc6016f48f588b61d98aaf4a770",
+                  "timestamp": "1765632999",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ce90335d4a044635b5e41d48078d0db3",
+                  "timestamp": "1765633055",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.2fd066d929e0488a90ded3f4226ee1d0"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.d570b57ae06a4e868a07775df0d4e39c",
+                  "timestamp": "1765633118",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.3945f2e6130a477f99c34ddf91eb76f1",
+                  "timestamp": "1765633198",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3118e04cce604ecab2d2c4a6c747609c"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ff47d1f02e1d42c4ae02282cb6dcf94f",
+                  "timestamp": "1765633279",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.2fd066d929e0488a90ded3f4226ee1d0"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.209bbca28a914cceb2cea95a403e6128",
+                  "timestamp": "1765633344",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.44870bf87f9848b793fdceeca7897565"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.be0cf6046bd24481bf560ef57b1d1d9a",
+                  "timestamp": "1765633367",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.2ac8c588112a49509d57667097ab6284",
+                  "timestamp": "1765633401",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.e9f8b58803dd486fa770b0bd67b81af2",
+                  "timestamp": "1765633483",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.4ead1f4abaee40418777f81f92db6910",
+                  "timestamp": "1765633520",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.b0b21c713c8b47f0b3e44ee34db00d42",
+                  "timestamp": "1765633592",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.47da0a5f5a4e4a35ac378d5c9f7f248e"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c3ea2aceaa3b4288a94810fb39b24a68",
+                  "timestamp": "1765633670",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4eba4db22e114e42a3f3cb6ea88b4deb",
+                  "timestamp": "1765633716",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9dac9b62ba6847c0998d45003c49dd5b"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.2dc5fe95046f4e078accf9c96c7487a3",
+                  "timestamp": "1765633770",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9d420a715c8e496caac984d42f652a11"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.141672d13b6d499f8835d41cc0739243",
+                  "timestamp": "1765633793",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.06c9d73d4d06433db10be8dab5ee82e3",
+                  "timestamp": "1765633862",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3945f2e6130a477f99c34ddf91eb76f1"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.28ecd53dea9d46b4a4bd7ca076efac5f",
+                  "timestamp": "1765633907",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bfffe4c43bd346f48d354cab141bea00"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.e61e602a39814389b05fc21a087b4c55",
+                  "timestamp": "1765633967",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.47da0a5f5a4e4a35ac378d5c9f7f248e"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.588299f5fcb4407d8614d8397219d7bd",
+                  "timestamp": "1765633989",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c8676d27a1454ed39dafc88801b9253a"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.69de8879b3b44c228c1d91d135aa0118",
+                  "timestamp": "1765634027",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9dac9b62ba6847c0998d45003c49dd5b"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.d6ff3fca01144ce799db5fd962c5343e",
+                  "timestamp": "1765634074",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c064609c963e48dc9d86523b71f32aac",
+                  "timestamp": "1765634126",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.e197ba3b775141d8b9f3f1f36eac8453",
+                  "timestamp": "1765634214",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.cca4a1f2aa6e4b56b9df5fab7097e20c",
+                  "timestamp": "1765634301",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.a6d1505f1a0d43f182c2bff59e26e9a7",
+                  "timestamp": "1765634329",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.24d68ef9ae2145d3afbe2e997f3c4199"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d9dfaef6d07540ae86261dc6d9969b54",
+                  "timestamp": "1765634353",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c8676d27a1454ed39dafc88801b9253a"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.0a21a24a633946ad92197c9c8c76769f",
+                  "timestamp": "1765634380",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.8dc7fbe4708546cfa8431a89e90988e2",
+                  "timestamp": "1765634442",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.8631f3be019444e292102b4eb6bcdc39",
+                  "timestamp": "1765634470",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.1ee49d48283142eab8d5c326e8b99264",
+                  "timestamp": "1765634505",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.4980c9dcc9eb45a9b873e09046f9fce3",
+                  "timestamp": "1765634532",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d730e766a8c44f30a0ac8b173c468549"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.105eeac7d3d843bb9f4e9eb0b91dea1c",
+                  "timestamp": "1765634570",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.be0cf6046bd24481bf560ef57b1d1d9a"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.3257223a48564f63bc5db075d765aae6",
+                  "timestamp": "1765634626",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.1f944a3f50c540faa4f51c1e38af3605",
+                  "timestamp": "1765634690",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.8450180221344152bb947f06c1d7abd0",
+                  "timestamp": "1765634747",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.7af2fba72750407482dcdeed3de0e2cb",
+                  "timestamp": "1765634834",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.1ee49d48283142eab8d5c326e8b99264"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.8a482c61c35c4219abe6a4f92823de39",
+                  "timestamp": "1765634887",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d284f6f35c5f42399b3f8c40111cbece"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.cc0681a10c1c4080a8524b4712d8b091",
+                  "timestamp": "1765634907",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5278b68575fb4b6c8ab262d8d43131d7",
+                  "timestamp": "1765634991",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.5fc5704212234f50804e0c3ce51fc451",
+                  "timestamp": "1765635047",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.1ee49d48283142eab8d5c326e8b99264"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d6ee79b09bc5448d8df8acd3a1eb1ddc",
+                  "timestamp": "1765635130",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.eebd9ea94a384a45b838a0664473a1f4",
+                  "timestamp": "1765635179",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.28b178473c9545a8a542d16a8bfdeb0f",
+                  "timestamp": "1765635254",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.9fcedf1921164304b73e304e8e59a8ab",
+                  "timestamp": "1765635277",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.06c9d73d4d06433db10be8dab5ee82e3"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b1df77d28bcf46e1ba33bf25ac3175ac",
+                  "timestamp": "1765635356",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.32c6997c67b94068871e6227bc277666",
+                  "timestamp": "1765635442",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.44870bf87f9848b793fdceeca7897565"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.118d3936d55145c9bba92828a19cd64e",
+                  "timestamp": "1765635505",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c064609c963e48dc9d86523b71f32aac"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ce66b20f6e4f406b99325093fb8cc237",
+                  "timestamp": "1765635533",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.cc0681a10c1c4080a8524b4712d8b091"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.0651d28ae87f4a418c697df46e8e8741",
+                  "timestamp": "1765635578",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.0a21a24a633946ad92197c9c8c76769f"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.2404616007864d299cdaaf0fbadf640b",
+                  "timestamp": "1765635653",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9d420a715c8e496caac984d42f652a11"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.8179187328e642048338769c7beb7b1b",
+                  "timestamp": "1765635682",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.118d3936d55145c9bba92828a19cd64e"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.1d6be1428c6b4c448a6dd3594e26e645",
+                  "timestamp": "1765635714",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.e00ff021442240518fc18089c5c44782",
+                  "timestamp": "1765635746",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.118d3936d55145c9bba92828a19cd64e"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.aa0ccc9b530c4fab9cdef842340954fe",
+                  "timestamp": "1765635803",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e9f8b58803dd486fa770b0bd67b81af2"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.41a6f184e0694e0bb56fe92e6ab3af76",
+                  "timestamp": "1765635877",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.64733938600446d2be86e07b623005d3",
+                  "timestamp": "1765635917",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.2f5964c2edf44cfcaa7d2d1e9887692e",
+                  "timestamp": "1765635959",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.18134107a1ff478998d253c15fe56ddf",
+                  "timestamp": "1765636034",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.57354971c249435c8832c765aefe8794",
+                  "timestamp": "1765636077",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d730e766a8c44f30a0ac8b173c468549"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.18eb48886883437383073e4b635ee258",
+                  "timestamp": "1765636159",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4980c9dcc9eb45a9b873e09046f9fce3"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.6d35b24f99ce48dda82b972de990f903",
+                  "timestamp": "1765636245",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.e645bbc4bc324ed5a9a93c0826e7b367",
+                  "timestamp": "1765636318",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c5ddc99b5f54d1a827ba4ae689bf1fe"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.72b965cafef84c6495bc9e6ee6837f34",
+                  "timestamp": "1765636391",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d570b57ae06a4e868a07775df0d4e39c"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.b2a35687b36f452c813e51ed89a7da20",
+                  "timestamp": "1765636446",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.105eeac7d3d843bb9f4e9eb0b91dea1c"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.56ab2bb409ba4fcd98687a9f8328931f",
+                  "timestamp": "1765636497",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3420a84539014818bd116d7824f67742"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.1b4bc1eefef24663a655ce52ffef5f77",
+                  "timestamp": "1765636517",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b2a35687b36f452c813e51ed89a7da20"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.29bc2e4ef3b44b1a9d3b85cc9f34f387",
+                  "timestamp": "1765636537",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.588299f5fcb4407d8614d8397219d7bd"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.32d00c4a556349e9b837616f7200f0b2",
+                  "timestamp": "1765636560",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.26f98a8034a249c4b96763f24fe9908d",
+                  "timestamp": "1765636580",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.32d00c4a556349e9b837616f7200f0b2"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.1ab9fe8e14604edb8923aab45071a7b9",
+                  "timestamp": "1765636666",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.28b178473c9545a8a542d16a8bfdeb0f"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e4198f0e646a4ddd93d9be7abdfd67b9",
+                  "timestamp": "1765636722",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.396405f74a5b4e0a83b160fbbcaf75bf"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.425e8509d4d4457289f3d2aac376390d",
+                  "timestamp": "1765636774",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8450180221344152bb947f06c1d7abd0"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.060b695a080243c7a455db8b0403c97e",
+                  "timestamp": "1765636807",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.1b71f64c927e4a81a046c153276db1ef",
+                  "timestamp": "1765636872",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8631f3be019444e292102b4eb6bcdc39"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.2b786f3208fc48c3a82239d93fa4a600",
+                  "timestamp": "1765636947",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.6800c68dfd2142edae0b943d825ddcc0",
+                  "timestamp": "1765636976",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9fcedf1921164304b73e304e8e59a8ab"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.d5f724a7ae6b4eb7aebc3fcdcbd5706a",
+                  "timestamp": "1765637015",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eebd9ea94a384a45b838a0664473a1f4"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.59bf1c9876f34754ba15a4d9be1d2efe",
+                  "timestamp": "1765637102",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.118d3936d55145c9bba92828a19cd64e"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bc7cba29de754af0868fc656bb3f9000",
+                  "timestamp": "1765637169",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e645bbc4bc324ed5a9a93c0826e7b367"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.aad9057c112a4a3884fe4748ac732759",
+                  "timestamp": "1765637244",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.e5e221f3467644a18ee406ad9b2941ea",
+                  "timestamp": "1765637328",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d9581337e37f4713baddb0c8fb85caf7",
+                  "timestamp": "1765637382",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d284f6f35c5f42399b3f8c40111cbece"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.7dc1dbdba6054d6c85cbd95bb0fffd05",
+                  "timestamp": "1765637464",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4364e0e6ad98483180a64c55140e7885",
+                  "timestamp": "1765637496",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] From a graph perspective threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b299ef58f79d4a37a305eb6579716d47"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.4175bcf8599649f7862de8d8cce58201",
+                  "timestamp": "1765637570",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] In real deployments incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ad347162bda646caa475efbec843dbad",
+                  "timestamp": "1765637621",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e197ba3b775141d8b9f3f1f36eac8453"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e859aebaa4bd4a7493934ec492cba4e2",
+                  "timestamp": "1765637679",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.18134107a1ff478998d253c15fe56ddf"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.99f974272a324ca2b2dfc6ca4cdecdf7",
+                  "timestamp": "1765637712",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.72b965cafef84c6495bc9e6ee6837f34"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.7dcd430131514eb5af994b20ee5af1f4",
+                  "timestamp": "1765637788",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9fcedf1921164304b73e304e8e59a8ab"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.589afb100cd44b07b3191b047f26685b",
+                  "timestamp": "1765637818",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e645bbc4bc324ed5a9a93c0826e7b367"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4ddae3ace341441e815f0be83108c03b",
+                  "timestamp": "1765637896",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.204eccf3702f4ae29b4a9929f38e0fb6"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.72a79a3d87864227bfc48111f7139977",
+                  "timestamp": "1765637974",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a6d1505f1a0d43f182c2bff59e26e9a7"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ea0f2697a51e4e45a3b782f3fddc11b3",
+                  "timestamp": "1765638044",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.1ab9fe8e14604edb8923aab45071a7b9"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.bbe99f13c3a34b8f805d4f53fa21b02b",
+                  "timestamp": "1765638072",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] A counterargument would be threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c786d5067ce04807b8e190a739137695",
+                  "timestamp": "1765638111",
+                  "type": "text",
+                  "text": {
+                    "body": "[LLM-based knowledge graphs from chat data] This becomes interesting once message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.aa0ccc9b530c4fab9cdef842340954fe"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "whatsapp-group-agentic-ai",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                },
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                },
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                },
+                {
+                  "profile": {
+                    "name": "Usman Tariq"
+                  },
+                  "wa_id": "923217778899"
+                },
+                {
+                  "profile": {
+                    "name": "Ayesha Malik"
+                  },
+                  "wa_id": "923459991122"
+                },
+                {
+                  "profile": {
+                    "name": "Hassan Ahmed"
+                  },
+                  "wa_id": "923118887766"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923001112233",
+                  "id": "wamid.51d52e5b81ca4889a4737d6b2e06c3cf",
+                  "timestamp": "1765631599",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.eed10bbeb3014868a51f928a7bee7048",
+                  "timestamp": "1765631640",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.51d52e5b81ca4889a4737d6b2e06c3cf"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.cd20d2da116f4b48808db038ccd21edd",
+                  "timestamp": "1765631691",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eed10bbeb3014868a51f928a7bee7048"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.f0e3b81eec124d8b913ed3e29e1b0db6",
+                  "timestamp": "1765631767",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eed10bbeb3014868a51f928a7bee7048"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.bba112676e834e01adcf0efaca914765",
+                  "timestamp": "1765631839",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.cd20d2da116f4b48808db038ccd21edd"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.0c50ce5ec6274382bf562e3bdb404d3e",
+                  "timestamp": "1765631898",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.26c37a984bb24f109d0dd62684ee0f2f",
+                  "timestamp": "1765631983",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.4dab28c1644b44059f3a0be8668b89e5",
+                  "timestamp": "1765632005",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.cd20d2da116f4b48808db038ccd21edd"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.dbd7ccf2656f4e799da7438a29d6c37e",
+                  "timestamp": "1765632060",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4dab28c1644b44059f3a0be8668b89e5"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.dc5b2e7c8ca343ce97ba9c9e02d9e057",
+                  "timestamp": "1765632143",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.ffeb0fdac9264a38b1132b36afead97e",
+                  "timestamp": "1765632183",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eed10bbeb3014868a51f928a7bee7048"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.57ab1d93076a4305a18c572fae0172a7",
+                  "timestamp": "1765632251",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ffeb0fdac9264a38b1132b36afead97e"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.de0b50746d4c41ee93bc81372afecb5e",
+                  "timestamp": "1765632284",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.69eee5f83e9a41d7a3659fb99ea96f03",
+                  "timestamp": "1765632312",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4dab28c1644b44059f3a0be8668b89e5"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.4fd1729da40740568f8f573764a70eed",
+                  "timestamp": "1765632352",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bba112676e834e01adcf0efaca914765"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c1219245a58b4c808064f08391547c68",
+                  "timestamp": "1765632407",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.26c37a984bb24f109d0dd62684ee0f2f"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.3efbf1f29c8c4ded862c463f078f3058",
+                  "timestamp": "1765632460",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.dbd7ccf2656f4e799da7438a29d6c37e"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.6f2a33304ae54a92903be09cf75955c6",
+                  "timestamp": "1765632535",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.9d944f80112d459da0f33c119c588c8f",
+                  "timestamp": "1765632575",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.2312fbac8735497a969d67dc125ef69b",
+                  "timestamp": "1765632660",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.8600e142d1a240caa7a89d9633a8cd4c",
+                  "timestamp": "1765632738",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.1ac941f7524b46efa98b3640187822ed",
+                  "timestamp": "1765632805",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.26c37a984bb24f109d0dd62684ee0f2f"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.c474109aa0ce4aa1af2aae5989aa03e8",
+                  "timestamp": "1765632835",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bba112676e834e01adcf0efaca914765"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9a5cef10b5994c91b14318c440ee97e6",
+                  "timestamp": "1765632921",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c0e6123b39c04dca8875d9df21916ed6",
+                  "timestamp": "1765633007",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.de0b50746d4c41ee93bc81372afecb5e"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c79f9c4da6ba465f89fe4606aa09d87c",
+                  "timestamp": "1765633070",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eed10bbeb3014868a51f928a7bee7048"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c972167d48d042a59d0d58aba0d9636a",
+                  "timestamp": "1765633112",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c0e6123b39c04dca8875d9df21916ed6"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.1311310191aa4ae4b7eb5ddcd1d5992f",
+                  "timestamp": "1765633193",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.90a8fccb6edc4b21b83b8fa533793035",
+                  "timestamp": "1765633281",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.dbd7ccf2656f4e799da7438a29d6c37e"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.89f823c3c9de47a2a00c0a4fcff6d152",
+                  "timestamp": "1765633324",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.26c37a984bb24f109d0dd62684ee0f2f"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.d54c95e3137c4a96a2e278f84c34c35c",
+                  "timestamp": "1765633412",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.69eee5f83e9a41d7a3659fb99ea96f03"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.2dcfe64822124940b8511a70756705d1",
+                  "timestamp": "1765633481",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9a9ab29b03e5497d9947e612dc00d98f",
+                  "timestamp": "1765633550",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.eed10bbeb3014868a51f928a7bee7048"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.37a5536d999a402188a6e9b0dbe402e6",
+                  "timestamp": "1765633571",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.314107a46ff1401d82f9fe2fdb218707",
+                  "timestamp": "1765633611",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.09cf8ce422684b3b894bef0b65e2aea5",
+                  "timestamp": "1765633640",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9a9ab29b03e5497d9947e612dc00d98f"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9b959fb926ef4eadbd8a732373a8f6a0",
+                  "timestamp": "1765633729",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ffeb0fdac9264a38b1132b36afead97e"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.0aa9f42fa7da455db6e1c65316abe7a0",
+                  "timestamp": "1765633799",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.2dcfe64822124940b8511a70756705d1"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.acebc4ef84d543e5a0d56c23f6cdf06e",
+                  "timestamp": "1765633879",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.2dcfe64822124940b8511a70756705d1"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.c42471d92df440a28975ae6cc66b599e",
+                  "timestamp": "1765633952",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.382ca344a08d4286af753ad4ccbecd86",
+                  "timestamp": "1765633981",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9b959fb926ef4eadbd8a732373a8f6a0"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.624fcaa5247c4d2991c5ab8de637454c",
+                  "timestamp": "1765634022",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.382ca344a08d4286af753ad4ccbecd86"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c4287e7a97e0483faf9efffb159c5515",
+                  "timestamp": "1765634075",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.8f80d89c6932492dbbb31452c24d6536",
+                  "timestamp": "1765634122",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.37a5536d999a402188a6e9b0dbe402e6"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.42b8843b60ef4885a1d14825912e9c81",
+                  "timestamp": "1765634147",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.382ca344a08d4286af753ad4ccbecd86"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.625493ea6dbd41aeb8178a18bccf1a18",
+                  "timestamp": "1765634230",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.63d40c618ea84382a21be42bd734598a",
+                  "timestamp": "1765634298",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8f80d89c6932492dbbb31452c24d6536"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d3429e35ca9e44698ddb36a559c37960",
+                  "timestamp": "1765634333",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.314107a46ff1401d82f9fe2fdb218707"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.970d083527e94d198f170abd114d7db6",
+                  "timestamp": "1765634396",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.590f3e5a7f3845be9cfaf50df71f4e4c",
+                  "timestamp": "1765634446",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.89f823c3c9de47a2a00c0a4fcff6d152"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.87a5f22c07274e02a1d398d75236c32d",
+                  "timestamp": "1765634531",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.4e0a3faf488649cc8f0a3f80ed2950f6",
+                  "timestamp": "1765634581",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.75e2be90ec60445983f757f05c893d6b",
+                  "timestamp": "1765634659",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.87a5f22c07274e02a1d398d75236c32d"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.8724f248a0ef4e72a9c527b1ef18efaf",
+                  "timestamp": "1765634717",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.90a8fccb6edc4b21b83b8fa533793035"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.4ee62363f1104219849941865148ea38",
+                  "timestamp": "1765634746",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c1219245a58b4c808064f08391547c68"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.30e63337a8e441509b9e3d7700a40c29",
+                  "timestamp": "1765634805",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.2312fbac8735497a969d67dc125ef69b"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.34b268a54b564d178a2236edd38d49f0",
+                  "timestamp": "1765634866",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.63d40c618ea84382a21be42bd734598a"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.70b358a6076542e88e672925b700083c",
+                  "timestamp": "1765634924",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c4287e7a97e0483faf9efffb159c5515"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.040a294c77ed46ea80e7938ae39db8c7",
+                  "timestamp": "1765634956",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a8f78f0c2c56441a93b7de9b90bfa182",
+                  "timestamp": "1765634994",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8600e142d1a240caa7a89d9633a8cd4c"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a2c338c91d0d4a44adc5979c800abf48",
+                  "timestamp": "1765635016",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c79f9c4da6ba465f89fe4606aa09d87c"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.bc932ac20c6544bbbad92bc61b0ac47e",
+                  "timestamp": "1765635043",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.f0e3b81eec124d8b913ed3e29e1b0db6"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.896d725eecbe4df98c75ad7cd33fa093",
+                  "timestamp": "1765635130",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.314107a46ff1401d82f9fe2fdb218707"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.35844a9347874a7799638680ff989719",
+                  "timestamp": "1765635181",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.69eee5f83e9a41d7a3659fb99ea96f03"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.7922aad490d843219d0cb937afd27fa6",
+                  "timestamp": "1765635208",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c79f9c4da6ba465f89fe4606aa09d87c"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.662100347fe24e54823985823bbba536",
+                  "timestamp": "1765635274",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bc932ac20c6544bbbad92bc61b0ac47e"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.4ded938c42d34e3dad71c49e8059a8a2",
+                  "timestamp": "1765635313",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.46cc36943fb242c6b1be907423deabfc",
+                  "timestamp": "1765635335",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.dc5b2e7c8ca343ce97ba9c9e02d9e057"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.59111a43326145f3b4eea43423d3b337",
+                  "timestamp": "1765635370",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bba112676e834e01adcf0efaca914765"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.ac1ffc5b438f4dc8940111272cf099ae",
+                  "timestamp": "1765635403",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.46cc36943fb242c6b1be907423deabfc"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.25d86ebc79994bbd8df19b2e5b235cab",
+                  "timestamp": "1765635480",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.cd20d2da116f4b48808db038ccd21edd"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.5892de3c47b3466bb8243a029ea6adf9",
+                  "timestamp": "1765635517",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8724f248a0ef4e72a9c527b1ef18efaf"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c779bf47980149ad90a4d14a0e2f6a73",
+                  "timestamp": "1765635585",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.de0b50746d4c41ee93bc81372afecb5e"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.85176c60b8d34a66895fc7a8d197298c",
+                  "timestamp": "1765635653",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.87a5f22c07274e02a1d398d75236c32d"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.154f5de524fb4dc3a9b363d00a65737a",
+                  "timestamp": "1765635698",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9a5cef10b5994c91b14318c440ee97e6"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.214b8deabfad426dbfd2ed27537573c8",
+                  "timestamp": "1765635765",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9d944f80112d459da0f33c119c588c8f"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d2666a8d28a4497194f392fbcdf92368",
+                  "timestamp": "1765635825",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a2c338c91d0d4a44adc5979c800abf48"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.0e5f324e27144de894ea695aafcfb64a",
+                  "timestamp": "1765635877",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.c8bc3ba7548749a1b8c9222b97a95ace",
+                  "timestamp": "1765635925",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4fd1729da40740568f8f573764a70eed"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a23ddc1e57bc4c189265c21a168fd330",
+                  "timestamp": "1765635986",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.721479f39048412781ac1bf7224a7942",
+                  "timestamp": "1765636042",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.fbadd322f1b94c198a6c0eb48cafc521",
+                  "timestamp": "1765636078",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.1311310191aa4ae4b7eb5ddcd1d5992f"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.066497cd4a5e46b68f353498b10c824e",
+                  "timestamp": "1765636110",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.90a8fccb6edc4b21b83b8fa533793035"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.30a4c50adf0543c798f5123146d30eae",
+                  "timestamp": "1765636143",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d3429e35ca9e44698ddb36a559c37960"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.8009c1174a514c38bc2d301f9809a8f3",
+                  "timestamp": "1765636222",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.a1046e48f7594bfb8aa848dceee58e0d",
+                  "timestamp": "1765636295",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.1bfa367ef48b46b68fb55b9aca47fa63",
+                  "timestamp": "1765636366",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9b959fb926ef4eadbd8a732373a8f6a0"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.6e2c1644efa84894b6a84104e102fcd9",
+                  "timestamp": "1765636456",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ac1ffc5b438f4dc8940111272cf099ae"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.bf80f99ea6bd4948857dc5a95ad8aa5e",
+                  "timestamp": "1765636503",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.f689af9ec8734f01af3ce96a336d4e9f",
+                  "timestamp": "1765636524",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3efbf1f29c8c4ded862c463f078f3058"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.958f0735fbdb4a6195e16f172472851b",
+                  "timestamp": "1765636610",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.9e7569a8db3d4cc19813d65082c1c4ab",
+                  "timestamp": "1765636689",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.382ca344a08d4286af753ad4ccbecd86"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.7bfbb41bc28c48f0af4cab40eeb97f39",
+                  "timestamp": "1765636739",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.4ed1b4742f8a4fd880976acece3bfff5",
+                  "timestamp": "1765636760",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4dab28c1644b44059f3a0be8668b89e5"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.2a98ab812ff347feac1731a672d263b1",
+                  "timestamp": "1765636834",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a18f37ec083044338363f3266eeb702e",
+                  "timestamp": "1765636858",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d35f64c1c6584498847b618815231dc0",
+                  "timestamp": "1765636916",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.154f5de524fb4dc3a9b363d00a65737a"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.60f3ee07ab9f44c9a4100800bffbd882",
+                  "timestamp": "1765636997",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9a5cef10b5994c91b14318c440ee97e6"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.51d2b3c5572549a98ef0b520831e99fc",
+                  "timestamp": "1765637028",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.ca96343b68eb4f9ebc97a8139530db10",
+                  "timestamp": "1765637106",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ab01881d21c04d6da9db37ed6502545b",
+                  "timestamp": "1765637157",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.5e6f3e49b83a48e086eecb9aeaab328b",
+                  "timestamp": "1765637245",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c779bf47980149ad90a4d14a0e2f6a73"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.25319ffb6e1744d6b3e258294b50fd00",
+                  "timestamp": "1765637269",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.066497cd4a5e46b68f353498b10c824e"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.0e8d9bbfc12e4cea8f532acb45ed8686",
+                  "timestamp": "1765637304",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.25319ffb6e1744d6b3e258294b50fd00"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.7e50b636deed414bb52d0a9a16cd0ec5",
+                  "timestamp": "1765637346",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.36c89a274c6442e4a946352a054e86ff",
+                  "timestamp": "1765637370",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.0e8d9bbfc12e4cea8f532acb45ed8686"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.c2cec70086414e4ca7a6004a5ef9dcc9",
+                  "timestamp": "1765637405",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.5892de3c47b3466bb8243a029ea6adf9"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.740e589ccb57455ba8e4617ccd044dcd",
+                  "timestamp": "1765637452",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.36c89a274c6442e4a946352a054e86ff"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.7979833bec4e46fe87ab4a15ca3f612b",
+                  "timestamp": "1765637520",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.26c37a984bb24f109d0dd62684ee0f2f"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.f22571ce3c9c4bfda8a5c79f3d8af0ec",
+                  "timestamp": "1765637562",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.653e36eaa74a46ebb642340768f7e6a3",
+                  "timestamp": "1765637625",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a2c338c91d0d4a44adc5979c800abf48"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.28914f7d8d064f5687ea84c5a3d83343",
+                  "timestamp": "1765637670",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.356fa2072339430b8a3a8ee9e9001ce2",
+                  "timestamp": "1765637755",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A practical issue arises when threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.92d78365ee3f4b6988a55f56bf2bbb6b",
+                  "timestamp": "1765637845",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.3d737a454c9f4b63a74adb035486c063",
+                  "timestamp": "1765637915",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.154f5de524fb4dc3a9b363d00a65737a"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.8031af46cc9e4944a9bf44a70e99ff05",
+                  "timestamp": "1765637989",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] A counterargument would be incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.a7c1883b2d394b978f8ca97bd66af3e1",
+                  "timestamp": "1765638009",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.040a294c77ed46ea80e7938ae39db8c7"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.0727b466ec164ab8868238379afef1fd",
+                  "timestamp": "1765638081",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c0e6123b39c04dca8875d9df21916ed6"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4caff552b42a4857b1a0eed7591b331b",
+                  "timestamp": "1765638133",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] In real deployments incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a3495fbafbbc400794aa8300889f09e1",
+                  "timestamp": "1765638161",
+                  "type": "text",
+                  "text": {
+                    "body": "[Agentic AI and memory architectures] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c42471d92df440a28975ae6cc66b599e"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "whatsapp-group-data-eng",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                },
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                },
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                },
+                {
+                  "profile": {
+                    "name": "Usman Tariq"
+                  },
+                  "wa_id": "923217778899"
+                },
+                {
+                  "profile": {
+                    "name": "Ayesha Malik"
+                  },
+                  "wa_id": "923459991122"
+                },
+                {
+                  "profile": {
+                    "name": "Hassan Ahmed"
+                  },
+                  "wa_id": "923118887766"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c03d583a55cc4994913bb2306d45219a",
+                  "timestamp": "1765631599",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.33daa80106524f08a69ae937072ac77d",
+                  "timestamp": "1765631684",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.0bbf155cc57a417c8be313ef5de80dec",
+                  "timestamp": "1765631738",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.dbbe987ca2ff458195e992cb3f10e59b",
+                  "timestamp": "1765631817",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.bf1e3b333e754049b7f7bef38a795849",
+                  "timestamp": "1765631896",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.6ada4aad0ade4cfa9e9c9d15b8ac7983",
+                  "timestamp": "1765631926",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.841ed44c62bf4c10a59b05a2eec9493c",
+                  "timestamp": "1765631972",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.bf1e3b333e754049b7f7bef38a795849"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.3ce9ee7d1d5749a29a3e8a9d95ce75ca",
+                  "timestamp": "1765632045",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.475236b273d94d459cbd5d7aa8228f45",
+                  "timestamp": "1765632068",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.4c6266944a5c40c3b70b356b73314ad6",
+                  "timestamp": "1765632106",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.e073e963e8d14bc985e02cac488336a7",
+                  "timestamp": "1765632135",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a62591d1693248ac8a383bed1de7ab04",
+                  "timestamp": "1765632174",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.0bbf155cc57a417c8be313ef5de80dec"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.8a855408393e4bf489a5b05e3fb9461a",
+                  "timestamp": "1765632258",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.475236b273d94d459cbd5d7aa8228f45"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.825d84079bf342048c50c15b86bc0129",
+                  "timestamp": "1765632300",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.28ee79ec6ae0466eac6fb445b521d3a5",
+                  "timestamp": "1765632380",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.4c6266944a5c40c3b70b356b73314ad6"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.3207087b62384e73b68d2d8571d537e3",
+                  "timestamp": "1765632461",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.6ada4aad0ade4cfa9e9c9d15b8ac7983"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.3047900b5d424db29291f9b51ea5d1d3",
+                  "timestamp": "1765632489",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.a8ab5cc06b084e52a45624ace26663b7",
+                  "timestamp": "1765632515",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.04bbe7eec3a94c6cbaaebe67247480c0",
+                  "timestamp": "1765632602",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.165f55b421524f629845ed7b9cf17e92",
+                  "timestamp": "1765632656",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.28ee79ec6ae0466eac6fb445b521d3a5"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.49895865f914431abcacd917de5dc410",
+                  "timestamp": "1765632721",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.04bbe7eec3a94c6cbaaebe67247480c0"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.f9421452d3614dc3b7d5a8d8c8a2bc4e",
+                  "timestamp": "1765632746",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.475236b273d94d459cbd5d7aa8228f45"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.92ae5f005fb14188926e929ed804cb24",
+                  "timestamp": "1765632821",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.b5ac7dc84a28494684368bd0b8ea000d",
+                  "timestamp": "1765632873",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.9233638bea7d41818f6a3bf3dd3f79c1",
+                  "timestamp": "1765632943",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a62591d1693248ac8a383bed1de7ab04"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.3efb55541bc8404495c12aae7f15282f",
+                  "timestamp": "1765633023",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b5ac7dc84a28494684368bd0b8ea000d"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.652bebf6f5554b96af5663af21282001",
+                  "timestamp": "1765633108",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.b3e1fa1e704449e7a8c7aa26b2db8a04",
+                  "timestamp": "1765633183",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.516eee8511aa4308b4987af021bbfaf4",
+                  "timestamp": "1765633250",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.589565e9c8b940dabdb3da417aa99816",
+                  "timestamp": "1765633290",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.49895865f914431abcacd917de5dc410"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a076c23012984fdb98ec9c9ec883e811",
+                  "timestamp": "1765633365",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.28ee79ec6ae0466eac6fb445b521d3a5"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.48f4690084744dd3994e19a15f3ae35e",
+                  "timestamp": "1765633452",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.fcad311aefee4d8ab41813a850a8a38b",
+                  "timestamp": "1765633483",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b3e1fa1e704449e7a8c7aa26b2db8a04"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c664f8d55cd54f9898f38d193939dff4",
+                  "timestamp": "1765633546",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.165f55b421524f629845ed7b9cf17e92"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.c96c18518de14551ba885f1b2ccb1bb0",
+                  "timestamp": "1765633574",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c2423c20de464190bb5b60714bb7b98f",
+                  "timestamp": "1765633619",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.841ed44c62bf4c10a59b05a2eec9493c"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.d54ca84cf7fb40c0872582bd42b4e9ce",
+                  "timestamp": "1765633652",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.49895865f914431abcacd917de5dc410"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.ce1b680b5b414e6590c8b08a456d2dfa",
+                  "timestamp": "1765633691",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.616f0cb91ec74a7a874e719e98dea03d",
+                  "timestamp": "1765633719",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.d26e1de3aae8480a8e784273a73237fd",
+                  "timestamp": "1765633785",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.516eee8511aa4308b4987af021bbfaf4"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.548b872e9bcb4a37b3f9e11d204cac67",
+                  "timestamp": "1765633848",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.b94b66c8a3bf41f99e6a630e98dd41e5",
+                  "timestamp": "1765633938",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c03d583a55cc4994913bb2306d45219a"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ee8e11a9a7614b4888aed2c6e4311b81",
+                  "timestamp": "1765633969",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b3e1fa1e704449e7a8c7aa26b2db8a04"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.ec21a5292ebe4ec6b2bd0e25b1e37674",
+                  "timestamp": "1765634016",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b3e1fa1e704449e7a8c7aa26b2db8a04"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.61e72d4d10274fbfab0589c103cc6e49",
+                  "timestamp": "1765634081",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.29dd48fbdaf6474c94f57d770f609021",
+                  "timestamp": "1765634142",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ec21a5292ebe4ec6b2bd0e25b1e37674"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.2b776e576aea45f2bd984aef23397fb9",
+                  "timestamp": "1765634203",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ce1b680b5b414e6590c8b08a456d2dfa"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.304530a8c5d24982ad1d3b6667710ac5",
+                  "timestamp": "1765634240",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.a47bb4b3f13040cba92edca5a87fb914",
+                  "timestamp": "1765634277",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.2d9355130ae94363b2e7209657bb2716",
+                  "timestamp": "1765634339",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.bc719cfb2f5b4e4dac476570851605e1",
+                  "timestamp": "1765634365",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.92b0f4d64ce249a1a5028a2ea084b6ab",
+                  "timestamp": "1765634402",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.48f4690084744dd3994e19a15f3ae35e"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.f112505e0b8f4f89b3d32dfe6a56b2f4",
+                  "timestamp": "1765634454",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.f9421452d3614dc3b7d5a8d8c8a2bc4e"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.47ce2ca2672c41ea9a5ff41e4782e4eb",
+                  "timestamp": "1765634543",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.6be41cb8d0a640cebbf7b56943b70053",
+                  "timestamp": "1765634585",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3efb55541bc8404495c12aae7f15282f"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.d6926214742f489e80a89b6635509da9",
+                  "timestamp": "1765634644",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.bce2c7fb48da4fe78df193edf3a2fe3d",
+                  "timestamp": "1765634710",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a076c23012984fdb98ec9c9ec883e811"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a6bceeba115c4bc7801a350b80183f73",
+                  "timestamp": "1765634787",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3047900b5d424db29291f9b51ea5d1d3"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e54fdad3eafe42918403b9c6c1b46616",
+                  "timestamp": "1765634849",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.d9bf64fc93404c8c8736a5b71e3c427b",
+                  "timestamp": "1765634879",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a003121b29bd4de3bf28bfb04ffb0938",
+                  "timestamp": "1765634944",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9233638bea7d41818f6a3bf3dd3f79c1"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.71e6204f2bee42ecb08e8f960ca01fe9",
+                  "timestamp": "1765634980",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e073e963e8d14bc985e02cac488336a7"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.52d0bacbba7d458bb0a272a1c81e5de3",
+                  "timestamp": "1765635035",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.616f0cb91ec74a7a874e719e98dea03d"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.2ac37c8428304918a0284ec5e5084849",
+                  "timestamp": "1765635114",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.2419400627634c43b70d2d781d2463a7",
+                  "timestamp": "1765635185",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c96c18518de14551ba885f1b2ccb1bb0"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.9ae2630717b2489fa31276d0c774fb66",
+                  "timestamp": "1765635234",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.48f4690084744dd3994e19a15f3ae35e"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.5960d02345964341a064c1f38f295307",
+                  "timestamp": "1765635306",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5dda65c2cddf4763a93920a3999aa89d",
+                  "timestamp": "1765635336",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e54fdad3eafe42918403b9c6c1b46616"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.fd3ef4def9e34d899c9ac30ae0279071",
+                  "timestamp": "1765635401",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.49895865f914431abcacd917de5dc410"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.b1bc8fc99a3d4166b5e6e33ea100602d",
+                  "timestamp": "1765635439",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9233638bea7d41818f6a3bf3dd3f79c1"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.75b624bdd3c84044b213299aa589df00",
+                  "timestamp": "1765635487",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.6b045234800640e28f7fded59ff9dd58",
+                  "timestamp": "1765635532",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ce1b680b5b414e6590c8b08a456d2dfa"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.b41150241c7747bcb9541fd6e7ae1568",
+                  "timestamp": "1765635580",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d54ca84cf7fb40c0872582bd42b4e9ce"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.b61c348319cf4a1399b273714dc89d42",
+                  "timestamp": "1765635653",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.29dd48fbdaf6474c94f57d770f609021"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.07bd51c498044291bd0733f50c886c86",
+                  "timestamp": "1765635729",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.3bc09a73ad214c29b83345bf401e491e",
+                  "timestamp": "1765635806",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.c652ddeb9e2d4fc99ead50e98a6cda9f",
+                  "timestamp": "1765635893",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a6bceeba115c4bc7801a350b80183f73"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.69ba2ca41f86483ba57eb86b96e8bce0",
+                  "timestamp": "1765635929",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.aba22cae4ac446558586a853c3213f38",
+                  "timestamp": "1765636009",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.5960d02345964341a064c1f38f295307"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d5e50dc46a4145c58a9a459edf61225d",
+                  "timestamp": "1765636080",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.cd739a664c3842e58dcbcc98b337238e",
+                  "timestamp": "1765636141",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.c2423c20de464190bb5b60714bb7b98f"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c9c7ed87c6724611b6fc9edb59720d48",
+                  "timestamp": "1765636191",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments incremental sync misses context."
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.800aaba2feb44dfa80c12e6eef3d846e",
+                  "timestamp": "1765636260",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8a855408393e4bf489a5b05e3fb9461a"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.1390cbc2ab2c4f6399af4491944dd705",
+                  "timestamp": "1765636311",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.f88c1cc7a8d144b090d72e09e33b0380",
+                  "timestamp": "1765636393",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.5960d02345964341a064c1f38f295307"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.81d8851ef6eb468191e65c49cd19e91c",
+                  "timestamp": "1765636454",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a076c23012984fdb98ec9c9ec883e811"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.91c60acdc1ba45ea8a7f0caca0b25752",
+                  "timestamp": "1765636490",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.92b0f4d64ce249a1a5028a2ea084b6ab"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.e01094099b0b4e16b5a2853c240dcda0",
+                  "timestamp": "1765636524",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ce1b680b5b414e6590c8b08a456d2dfa"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.d6844d09d0ee4aa6b7eb94602c18b237",
+                  "timestamp": "1765636609",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.f9421452d3614dc3b7d5a8d8c8a2bc4e"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.7ea1fc066c0a4b79a957727bf85206a6",
+                  "timestamp": "1765636693",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a003121b29bd4de3bf28bfb04ffb0938"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.3d709b5b382745998ad1bf67559c0350",
+                  "timestamp": "1765636721",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a003121b29bd4de3bf28bfb04ffb0938"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5b7b03b6a6ed4790aa4c366cbaf725c7",
+                  "timestamp": "1765636800",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a47bb4b3f13040cba92edca5a87fb914"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.9a720a1a9c2b4912bdfd17aba886876f",
+                  "timestamp": "1765636829",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be dense connectivity improves retrieval."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e01094099b0b4e16b5a2853c240dcda0"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.f8aa8afe2e894ba096357fdcf6ce76eb",
+                  "timestamp": "1765636895",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.ea4bc92cc75a43ddb0a8e358266719b9",
+                  "timestamp": "1765636966",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b1bc8fc99a3d4166b5e6e33ea100602d"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ddc5934a968948b4b68ae9e99c90f5bc",
+                  "timestamp": "1765637005",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.165f55b421524f629845ed7b9cf17e92"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.009bafd90d5d4f79b9317d4ec679905e",
+                  "timestamp": "1765637081",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.07bd51c498044291bd0733f50c886c86"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.1a0e3e62f16141829d0341d6044e765f",
+                  "timestamp": "1765637157",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.5dda65c2cddf4763a93920a3999aa89d"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.7e062c0500d1489985a3fefd670e851c",
+                  "timestamp": "1765637219",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be message-level memory is required."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.eb2eed48215549369efcf0031dae7892",
+                  "timestamp": "1765637242",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.d9bf64fc93404c8c8736a5b71e3c427b"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.dc05c274e23440f2bbece29a515e6778",
+                  "timestamp": "1765637330",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments graphs outperform flat embeddings."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.fe1402bed2c5468eada5621f9a249708",
+                  "timestamp": "1765637383",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] From a graph perspective message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.07bd51c498044291bd0733f50c886c86"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.5a6945f7deba4e74b72c09351f922dee",
+                  "timestamp": "1765637470",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.61e72d4d10274fbfab0589c103cc6e49"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.7b710c055e7f41b0aef1ee7d4b0687e8",
+                  "timestamp": "1765637519",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.b41150241c7747bcb9541fd6e7ae1568"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.8006b89e22534cadb739c392093b1680",
+                  "timestamp": "1765637601",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.cd739a664c3842e58dcbcc98b337238e"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.30043222d2ed44bfb072a64376d0dc4b",
+                  "timestamp": "1765637670",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.13ae7924e29343c3900b8c5c94983145",
+                  "timestamp": "1765637741",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] One architectural challenge is incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.9a720a1a9c2b4912bdfd17aba886876f"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.422643b488d546aa84008e6c2faaf5ac",
+                  "timestamp": "1765637823",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once incremental sync misses context."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.475236b273d94d459cbd5d7aa8228f45"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.c6c194f3ea354c24954cfb9709e49331",
+                  "timestamp": "1765637866",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.3bc09a73ad214c29b83345bf401e491e"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.7a6cafca246e471c9d7ac005ae63ad52",
+                  "timestamp": "1765637918",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments message-level memory is required."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.a076c23012984fdb98ec9c9ec883e811"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.64b1adbf652342348f68263cf187f162",
+                  "timestamp": "1765637961",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.e54fdad3eafe42918403b9c6c1b46616"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.f5ca61ee51dd4cf295b2470e4d7f2f84",
+                  "timestamp": "1765638041",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once dense connectivity improves retrieval."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.9ded93fe83b745bf945c10292e4d13cd",
+                  "timestamp": "1765638072",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.ec21a5292ebe4ec6b2bd0e25b1e37674"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.682239346f0d49d997cd139dfed0f2c7",
+                  "timestamp": "1765638098",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once graphs outperform flat embeddings."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.8006b89e22534cadb739c392093b1680"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.9a95d2a470bd4f82bfe901bcc9e2787e",
+                  "timestamp": "1765638183",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.287e08d7a9304d54b491c3d681cf90aa",
+                  "timestamp": "1765638203",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A practical issue arises when threads are not explicitly modeled."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.7ea1fc066c0a4b79a957727bf85206a6"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.8e6344a3632f44b2aa2512dcc640240b",
+                  "timestamp": "1765638278",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments historical replay improves reasoning."
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.f4ac5239d4c941d1a30cb7034b5620e5",
+                  "timestamp": "1765638334",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] This becomes interesting once historical replay improves reasoning."
+                  },
+                  "context": {
+                    "reply_to_message_id": "wamid.589565e9c8b940dabdb3da417aa99816"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.94fd4bbe4a8b4c24ac07d52c5fd9d2c1",
+                  "timestamp": "1765638392",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] In real deployments threads are not explicitly modeled."
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.15bf707e0d5d41329c15e74df0b60149",
+                  "timestamp": "1765638413",
+                  "type": "text",
+                  "text": {
+                    "body": "[Streaming vs batch ingestion for messaging systems] A counterargument would be historical replay improves reasoning."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

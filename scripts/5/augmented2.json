@@ -1,0 +1,392 @@
+[
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923046928830",
+                  "id": "wamid.31a554a9a1744870aca98ae13301ec97",
+                  "timestamp": "1765791527",
+                  "type": "text",
+                  "text": {
+                    "body": "I think using WhatsApp as an ingestion layer for AI agents makes a lot of sense."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923001112233",
+                  "id": "wamid.223effa782c241b98d5917bc4abf3e54",
+                  "timestamp": "1765791572",
+                  "type": "text",
+                  "text": {
+                    "body": "Agreed. Especially when messages are streamed into a knowledge graph."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923334445566",
+                  "id": "wamid.b8e42d8339c64bf39111e5cf9189a301",
+                  "timestamp": "1765791617",
+                  "type": "text",
+                  "text": {
+                    "body": "How are you planning to structure entities from chats?"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Ahmed Hassan"
+                  },
+                  "wa_id": "923221234567"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923221234567",
+                  "id": "wamid.5cf3ce1767404a0eae139d0dbdc1ab94",
+                  "timestamp": "1765791662",
+                  "type": "text",
+                  "text": {
+                    "body": "We are mapping users, messages, intents, and timestamps as nodes."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c8ae85b6055c44d4aeb1e2a7c76f9d0f",
+                  "timestamp": "1765791707",
+                  "type": "text",
+                  "text": {
+                    "body": "That should help with conversational memory across sessions."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923001112233",
+                  "id": "wamid.99b6a177673f4ac988ef90279db21a5d",
+                  "timestamp": "1765791752",
+                  "type": "text",
+                  "text": {
+                    "body": "Yes, and Graphiti helps maintain temporal edges."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923334445566",
+                  "id": "wamid.c5aaf4c579134bca8875d9e6df75ab53",
+                  "timestamp": "1765791797",
+                  "type": "text",
+                  "text": {
+                    "body": "Are you doing real-time ingestion or batch?"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Ahmed Hassan"
+                  },
+                  "wa_id": "923221234567"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923221234567",
+                  "id": "wamid.ae7ec25d399c4471884f42b1c73fe7d0",
+                  "timestamp": "1765791842",
+                  "type": "text",
+                  "text": {
+                    "body": "Both. Webhooks for real-time and Airbyte for backfills."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923046928830",
+                  "id": "wamid.a2c12eb4a1964869a6a79c67fd445469",
+                  "timestamp": "1765791887",
+                  "type": "text",
+                  "text": {
+                    "body": "Nice. That should make agent reasoning much more contextual."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "25700534409553170",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923001112233",
+                  "id": "wamid.43211024797c42db93afec8ce0ea9da0",
+                  "timestamp": "1765791932",
+                  "type": "text",
+                  "text": {
+                    "body": "Exactly. The agent can traverse prior conversations easily."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+    "object": "whatsapp_business_account",
+    "entry": [
+        {
+        "id": "<WHATSAPP_BUSINESS_ACCOUNT_ID>",
+        "changes": [
+            {
+            "value": {
+                "messaging_product": "whatsapp",
+                "metadata": {
+                        "display_phone_number": "<BUSINESS_DISPLAY_PHONE_NUMBER>",
+                        "phone_number_id": "<BUSINESS_PHONE_NUMBER_ID>"
+                },
+                "statuses": [
+                    {
+                    "id": "<WHATSAPP_MESSAGE_ID>",
+                    "recipient_id": "<GROUP_ID>",
+                    "recipient_type": "group",
+                    "status": "sent",
+                    "timestamp": "<WEBHOOK_TRIGGER_TIMESTAMP>",
+                    }
+                ]
+            },
+            "field": "messages"
+            }
+        ]
+        }
+    ]
+
+    }
+]

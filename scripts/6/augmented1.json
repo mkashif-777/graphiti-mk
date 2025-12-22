@@ -1,0 +1,2042 @@
+[
+  {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "whatsapp-group-llm-graph",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15556566230",
+                "phone_number_id": "934940683027684"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Muhammad Kashif"
+                  },
+                  "wa_id": "923046928830"
+                },
+                {
+                  "profile": {
+                    "name": "Ali Raza"
+                  },
+                  "wa_id": "923001112233"
+                },
+                {
+                  "profile": {
+                    "name": "Sara Khan"
+                  },
+                  "wa_id": "923334445566"
+                },
+                {
+                  "profile": {
+                    "name": "Usman Tariq"
+                  },
+                  "wa_id": "923217778899"
+                },
+                {
+                  "profile": {
+                    "name": "Ayesha Malik"
+                  },
+                  "wa_id": "923459991122"
+                },
+                {
+                  "profile": {
+                    "name": "Hassan Ahmed"
+                  },
+                  "wa_id": "923118887766"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "923217778899",
+                  "id": "wamid.b132b72fc2514bdfb94ac7b446a41088",
+                  "timestamp": "1765710006",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5b32951099ae4154bb5051d247e621fa",
+                  "timestamp": "1765710036",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.51ca53d97c554bfb9a1f7982d33c4dd7",
+                  "timestamp": "1765710066",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan I agree, especially when considering sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.db79f264dbb44f3dac507c33bb343545",
+                  "timestamp": "1765710096",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik From a graph modeling perspective, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.c3f40bc268864e30b7405bf97d009225",
+                  "timestamp": "1765710126",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq This becomes more complex once incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.1d69ba88d6d645a9b28adcc303eec4a4",
+                  "timestamp": "1765710156",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza A counterpoint would be Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.58b77eca118b4df2ab1e86bf7991b9e4",
+                  "timestamp": "1765710186",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan I agree, especially when considering incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.088cf8ca97de467696c6ec6b16c35f74",
+                  "timestamp": "1765710216",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza Building on the previous point, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.4453fdde15e3443f87253a7890b6406c",
+                  "timestamp": "1765710246",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] One challenge I see is temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9810dac7e181411795efb31f863a4a15",
+                  "timestamp": "1765710276",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.4f743515adfb47198e5003571e428d73",
+                  "timestamp": "1765710306",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan This becomes more complex once LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.4fbf7a95d93140cf897c9605c433844c",
+                  "timestamp": "1765710336",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik One challenge I see is Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.cf0e8f622e21411193c472ea5f061abc",
+                  "timestamp": "1765710366",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq From my experience, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.239a348fa86e4b5aa4ba9f92dcc4f95e",
+                  "timestamp": "1765710396",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Hassan Ahmed From a graph modeling perspective, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.82231dad10de4efca9243292bf5b5ab7",
+                  "timestamp": "1765710426",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.e0d0b1ad279c47d69d90a529b5bf6d01",
+                  "timestamp": "1765710456",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b48e106400234ce4921238f699f25b06",
+                  "timestamp": "1765710486",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.f028fe96ae9e4601bfb70b77cf4bab4b",
+                  "timestamp": "1765710516",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik A counterpoint would be mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.381ffd10a00d4bd9b3bdcd16d92903ba",
+                  "timestamp": "1765710546",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik From a graph modeling perspective, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.49ee478a225d45f3a1bc610b77174428",
+                  "timestamp": "1765710576",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif A counterpoint would be message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.fd71d4747edb416dba00eec810c44173",
+                  "timestamp": "1765710606",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Muhammad Kashif From a graph modeling perspective, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.a72a334ba651432681c20aff2878109c",
+                  "timestamp": "1765710636",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.a63221b420974ff39d768af4a527db3d",
+                  "timestamp": "1765710666",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.10ef76ae922c48e6a5644b20f1ca2019",
+                  "timestamp": "1765710696",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.647e10c10ead46d4820f7914fe4368b0",
+                  "timestamp": "1765710726",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bdbbc343fe1c4b4a8c16c34c18c52ece",
+                  "timestamp": "1765710756",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik From my experience, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.8528800e571743a48f72fa98dbe4d68d",
+                  "timestamp": "1765710786",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.1726694b4f574ce29365341bd1c1fa1a",
+                  "timestamp": "1765710816",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] One challenge I see is mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.57f0fdad00b64202af7865c4c00bf801",
+                  "timestamp": "1765710846",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed From my experience, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ce5096db88ab4bd4a9224572ba2b2517",
+                  "timestamp": "1765710876",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bce9cebf069246dca4648ace49e12d78",
+                  "timestamp": "1765710906",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq I agree, especially when considering mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.75eb5495163d47e5b33158deca65aff6",
+                  "timestamp": "1765710936",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Usman Tariq I agree, especially when considering historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.e8de78081f184125965dd0da64acb26e",
+                  "timestamp": "1765710966",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza One challenge I see is LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.c1a5d5addd7f4795afafa794346a2a9d",
+                  "timestamp": "1765710996",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ayesha Malik From my experience, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.8ae06b230f224527ac3c7507c4df3d01",
+                  "timestamp": "1765711026",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Sara Khan Building on the previous point, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.332a9dab22c44e409a8f0db907f4ec11",
+                  "timestamp": "1765711056",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.37e24ac1a8d34d9182691784c3378b27",
+                  "timestamp": "1765711086",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Ayesha Malik A counterpoint would be sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.d8bbd1a2d25b46b6a2d2d6677c80012d",
+                  "timestamp": "1765711116",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.3771bb1d047b49efbc6ccc8c2ac97e8e",
+                  "timestamp": "1765711146",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik I agree, especially when considering message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ba443f32a6914c20bb0094e843e62798",
+                  "timestamp": "1765711176",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.1948ba62aedb4a4d8257a9e499c9cd91",
+                  "timestamp": "1765711206",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.fae47135df08498bb43e22536c595207",
+                  "timestamp": "1765711236",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Hassan Ahmed This becomes more complex once message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.1cde3fb0b49c41f5a6179637915ba3dd",
+                  "timestamp": "1765711266",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik From my experience, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.091c8989806047ed8325fd5da7216836",
+                  "timestamp": "1765711296",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.6b2b2e3c331f43be85766158a69b6ee2",
+                  "timestamp": "1765711326",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan In production systems, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.8ca5cf05df0746a8bcbd42bbced8226e",
+                  "timestamp": "1765711356",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Usman Tariq In production systems, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b3113538d9b94f11a4f045bd7fbd1e11",
+                  "timestamp": "1765711386",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.277e32e30a8b405ab62c6796cfe0e3b5",
+                  "timestamp": "1765711416",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.6e30d65319c64161bdac99bb925f32b1",
+                  "timestamp": "1765711446",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ali Raza From a graph modeling perspective, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.611f22f0cc1c409eb0d46bf4efc729d0",
+                  "timestamp": "1765711476",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ali Raza From a graph modeling perspective, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.bf47b3d0513d4b33be852b54c3dae062",
+                  "timestamp": "1765711506",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ali Raza Building on the previous point, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d1de84f83c8746d9b46575f1ccdc787b",
+                  "timestamp": "1765711536",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d315b11270b9471bbb3b55e475eaef11",
+                  "timestamp": "1765711566",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.2d8ad5d1b3b74e4bbe6e8a1275bf6e42",
+                  "timestamp": "1765711596",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik From a graph modeling perspective, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ff896740a82a4078bb4e66b448d2bc0a",
+                  "timestamp": "1765711626",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Usman Tariq From my experience, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.0692bde7b99f4b2ea4366a1897578edd",
+                  "timestamp": "1765711656",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Hassan Ahmed I agree, especially when considering historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.111bd7d68b5b4ac2af1c02f357ab84dd",
+                  "timestamp": "1765711686",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.82ef214af03b42d4b2b091e36d281013",
+                  "timestamp": "1765711716",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq Building on the previous point, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.eeff8f0c47ae44d081eccb892e9a9dc5",
+                  "timestamp": "1765711746",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif I agree, especially when considering temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.67bff4a24c0848e6ae22e8624e531cba",
+                  "timestamp": "1765711776",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Ali Raza From a graph modeling perspective, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d2bb91da069542b7a5d8546770475574",
+                  "timestamp": "1765711806",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.016191e06ebe4b379084a47633d0098e",
+                  "timestamp": "1765711836",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Usman Tariq One challenge I see is LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.ed1ca59707a64eaab7d83f4e2fa503db",
+                  "timestamp": "1765711866",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Hassan Ahmed I agree, especially when considering temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.af916802e1f3498ba23d74650b0f3e83",
+                  "timestamp": "1765711896",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From my experience, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.fdd2b4f5a21a4f17bdf48f8ba8f9fc0a",
+                  "timestamp": "1765711926",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.5e4393973e6a48afbe69fa7568b4185d",
+                  "timestamp": "1765711956",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Sara Khan From my experience, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.38705cb1586d4bd0b21cf0cf15517d98",
+                  "timestamp": "1765711986",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza From my experience, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.bbe739dc0418476094e56529998edc61",
+                  "timestamp": "1765712016",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.d2afab4820b14650be6c59f24ecded08",
+                  "timestamp": "1765712046",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif I agree, especially when considering temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.4a80a093f0154e2f8b64ccc7c922ad8e",
+                  "timestamp": "1765712076",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Muhammad Kashif I agree, especially when considering message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.c758709d12e24054a96b8b4ece39df08",
+                  "timestamp": "1765712106",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed I agree, especially when considering incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d0863701fcbe424eb2015a4842aec53e",
+                  "timestamp": "1765712136",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik This becomes more complex once message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.b769edc9bff746b4b37110106b06884e",
+                  "timestamp": "1765712166",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan From my experience, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.26184def161a4d2daba30778555c225e",
+                  "timestamp": "1765712196",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] One challenge I see is Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.854f6c64494d4e449fd5b6527d14d251",
+                  "timestamp": "1765712226",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik This becomes more complex once message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.141b16ce771b483584fc4b3f50d0029e",
+                  "timestamp": "1765712256",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ayesha Malik This becomes more complex once incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.b25c5206e49e4fc2a52199f75899e93c",
+                  "timestamp": "1765712286",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik In production systems, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.3a6ad4655115401f9c87597c5df985c6",
+                  "timestamp": "1765712316",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Hassan Ahmed This becomes more complex once sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.1c4178aed69b40cd8f9c615cb408a4be",
+                  "timestamp": "1765712346",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Ali Raza From a graph modeling perspective, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.589640589fe24f47a8153071d678a1c7",
+                  "timestamp": "1765712376",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.02cfaaf6ab4942e1b18117e35d33189d",
+                  "timestamp": "1765712406",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Sara Khan A counterpoint would be group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.52bcb98aa5e6491c8bfb703b175f2d14",
+                  "timestamp": "1765712436",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Usman Tariq This becomes more complex once sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.a8aa0f39a89e42c6a84689abc7537815",
+                  "timestamp": "1765712466",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.7b84eddae6684ab4870f272180f8f392",
+                  "timestamp": "1765712496",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Sara Khan A counterpoint would be temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e2a286e932c04f27a49e44cfaac50635",
+                  "timestamp": "1765712526",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza A counterpoint would be message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.8f7c433c8d5542099ceea6d3446e09ab",
+                  "timestamp": "1765712556",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.f8f4ec826db4417aaa50b6ba8a75254d",
+                  "timestamp": "1765712586",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.157a7a294e1240b5bcea96072a6c8466",
+                  "timestamp": "1765712616",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From my experience, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.cd0c0078727648e486f844d6e35ec867",
+                  "timestamp": "1765712646",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.a9348cb61bcc4eeb90d678832caa5325",
+                  "timestamp": "1765712676",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Muhammad Kashif From a graph modeling perspective, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.cb2320651172408291da86942f468d42",
+                  "timestamp": "1765712706",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik Building on the previous point, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.f6ab54c7b7d84c2399ef84043e919eb8",
+                  "timestamp": "1765712736",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan From a graph modeling perspective, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.3fca96764b4f4fe18926f9da2ce91d54",
+                  "timestamp": "1765712766",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.bb0ca1113525400ebbb1f3173c9dc068",
+                  "timestamp": "1765712796",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.70e5b83d3e7d47fc99e2cf56deca5147",
+                  "timestamp": "1765712826",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif This becomes more complex once temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e696702676294d09b3e04a5a93ff4298",
+                  "timestamp": "1765712856",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Ali Raza Building on the previous point, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.51556b9907ea4b8394a59f56b1d912ea",
+                  "timestamp": "1765712886",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq A counterpoint would be group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.4557c9133f40450185c8386aefcebc98",
+                  "timestamp": "1765712916",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik In production systems, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.8d538983821449bea1254d15a045f2f1",
+                  "timestamp": "1765712946",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif From my experience, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.b806df5415bd494ca7623908609e09c3",
+                  "timestamp": "1765712976",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.35413dcb4dd240869a519fb27f94b44b",
+                  "timestamp": "1765713006",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed This becomes more complex once group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.4c5d2e0a4b9448aa8af9f0f80b1c235e",
+                  "timestamp": "1765713036",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Ali Raza From my experience, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.297ded2edf6f4def98eabd7a402f5692",
+                  "timestamp": "1765713066",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq A counterpoint would be mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.9257781f56974cd19811d6a6bd37e292",
+                  "timestamp": "1765713096",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq Building on the previous point, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d14bc10cdae844dcb5d1ab1350b3da84",
+                  "timestamp": "1765713126",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan I agree, especially when considering LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.5480010529904a90a6c212be474ec0ba",
+                  "timestamp": "1765713156",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq In production systems, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.da1a9cc29d5b44c2b1b93f57449bf3a9",
+                  "timestamp": "1765713186",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.3722f37e068341a2bd5ad91f97e0a65f",
+                  "timestamp": "1765713216",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From my experience, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.a665570099be41f5ad0f9139d2abf1e3",
+                  "timestamp": "1765713246",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a9f3c3f5fd4f4cb6aeb69c759967143b",
+                  "timestamp": "1765713276",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Hassan Ahmed Building on the previous point, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5f72a1be373642a1b1fa9220803224a4",
+                  "timestamp": "1765713306",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.5e744a58c220489ca56302a8e255085d",
+                  "timestamp": "1765713336",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ayesha Malik From my experience, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.511f03b263eb410b8083b7a67e302bce",
+                  "timestamp": "1765713366",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan From my experience, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c9a60047dcd0422eb2bb5183cd8deb24",
+                  "timestamp": "1765713396",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Hassan Ahmed I agree, especially when considering message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.7194b36dc5504aa2a519bb5237e84c5b",
+                  "timestamp": "1765713426",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Usman Tariq From a graph modeling perspective, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.7e2029349aee44f994118053d8e5af12",
+                  "timestamp": "1765713456",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik From my experience, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.5992e46afb2347ab8779ecc5ba6ef311",
+                  "timestamp": "1765713486",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ali Raza In production systems, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.25ec95e8072a44eeb3f72dc556c5ea95",
+                  "timestamp": "1765713516",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed This becomes more complex once historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.bba51989edc34710a41ab474ace16674",
+                  "timestamp": "1765713546",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] One challenge I see is historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bafd878a02f64479bb2c17e42f4e63c1",
+                  "timestamp": "1765713576",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.8463b58bfff8421bb7a710856e851761",
+                  "timestamp": "1765713606",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif This becomes more complex once group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.f3da3ea788af43869d0e59937a3d7b12",
+                  "timestamp": "1765713636",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza Building on the previous point, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.24d67c4b265f4a9a876a976a6018e407",
+                  "timestamp": "1765713666",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Hassan Ahmed Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d786bbc0964a436a876aa158bb80ec8e",
+                  "timestamp": "1765713696",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.d522a43811614ac88a2acff6b16011a5",
+                  "timestamp": "1765713726",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Sara Khan One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.57bbcb64906345e4a0e55acfed45c4b8",
+                  "timestamp": "1765713756",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Usman Tariq One challenge I see is historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.82cac47b25154b8791bef1e3033e5ea8",
+                  "timestamp": "1765713786",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.e6ea76319bbb424c9dde2861a4d7906e",
+                  "timestamp": "1765713816",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza One challenge I see is sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.4445ffd1124d44a5a07f527a8c7e1a53",
+                  "timestamp": "1765713846",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.8adccfb51ab743bf8f7f0bec581baf54",
+                  "timestamp": "1765713876",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.9ec7cd1283de40be94e4e0e2fba5596b",
+                  "timestamp": "1765713906",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Sara Khan From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.adc514be85bb4d68894029a5426b86b1",
+                  "timestamp": "1765713936",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.1f183e30405a4ce58b6260dccd3e186c",
+                  "timestamp": "1765713966",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.4e1e2bcc115b4ed39aedde3e0354c167",
+                  "timestamp": "1765713996",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq This becomes more complex once historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.e9bd518bac7e422ca7a636359f49b712",
+                  "timestamp": "1765714026",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik From a graph modeling perspective, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b51a5529300544169d087daa95f990a7",
+                  "timestamp": "1765714056",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.dc0ae3f3478e464fa72cf722372ea12f",
+                  "timestamp": "1765714086",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Sara Khan This becomes more complex once temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b8fb2e46212540b68038503f1e242fd7",
+                  "timestamp": "1765714116",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From my experience, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.0bb821c907e84415a94ce36689977fdd",
+                  "timestamp": "1765714146",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ayesha Malik A counterpoint would be Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.919cb40fcc9940b4811ac6103b2217d5",
+                  "timestamp": "1765714176",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Muhammad Kashif From a graph modeling perspective, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.6fb49194de8f4747ab6d6daec8490fc6",
+                  "timestamp": "1765714206",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Usman Tariq In production systems, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.e0e0a6225dfd44488168b7b753c19caa",
+                  "timestamp": "1765714236",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.8da2f9e70c65475884feb87513a8b6de",
+                  "timestamp": "1765714266",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Muhammad Kashif From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.9e11ad4bd8fd4b9487b113daeb7e2153",
+                  "timestamp": "1765714296",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Ali Raza I agree, especially when considering message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.9213459f430a4667985da805d3b79e03",
+                  "timestamp": "1765714326",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq From a graph modeling perspective, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.f98f489c7c484fb6bbf17cf090f5ff54",
+                  "timestamp": "1765714356",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.19bd043d489c4907ba3dc1b0f76fad5e",
+                  "timestamp": "1765714386",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik This becomes more complex once LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.a3e1a302c2474b4fa02c9991a93e4dff",
+                  "timestamp": "1765714416",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed One challenge I see is temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.d1d955b518f946fca015d0d07cd75ea2",
+                  "timestamp": "1765714446",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.8d4b0df5d156436f8e932e01f7cec5a7",
+                  "timestamp": "1765714476",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik A counterpoint would be historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.387b5059dbea4188b20b4dc00a713730",
+                  "timestamp": "1765714506",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Sara Khan From a graph modeling perspective, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.336002dfe6f94645bb2d9bec6aaf7548",
+                  "timestamp": "1765714536",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza In production systems, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bc73b42b5b9540b18410f4bdbb4fdeb3",
+                  "timestamp": "1765714566",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.9afd585e939b4f43a24efc6a99fdb68d",
+                  "timestamp": "1765714596",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Muhammad Kashif From my experience, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e7a9e8bba50d403cbd6fe4d694c5bfd2",
+                  "timestamp": "1765714626",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif In production systems, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.fc86a5fed4514c58b69ed23c8c8e1e97",
+                  "timestamp": "1765714656",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed Building on the previous point, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.cbb694c3823f4790acb9e921d5cdf5bb",
+                  "timestamp": "1765714686",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan One challenge I see is message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.37b0527584b342fea7f921ff0058dd6c",
+                  "timestamp": "1765714716",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed From a graph modeling perspective, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.64540ecba4f445bc840c4816060bfe06",
+                  "timestamp": "1765714746",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.5fcf54bb70a94084aca86c6d95d94fe3",
+                  "timestamp": "1765714776",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Ali Raza Building on the previous point, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.dc68c59bb11449ff8806b81f7a67fd67",
+                  "timestamp": "1765714806",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Usman Tariq A counterpoint would be temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.809e61ecbe9f44a58412bd4468f7c9cd",
+                  "timestamp": "1765714836",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.650b866df497429391e7991796737474",
+                  "timestamp": "1765714866",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Hassan Ahmed From my experience, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.78f9c2f3b4b44a018cefcbdd5517cf5d",
+                  "timestamp": "1765714896",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Usman Tariq This becomes more complex once historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.1771a2295d174b059a6a035199799f12",
+                  "timestamp": "1765714926",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Muhammad Kashif From my experience, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.e7da3f457dd04477a811ecc84a709273",
+                  "timestamp": "1765714956",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Usman Tariq A counterpoint would be mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.b961a83967d04e8c9f5f1458dd68c9a6",
+                  "timestamp": "1765714986",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Hassan Ahmed From a graph modeling perspective, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.ce5022674805405bac922d4aaa536cf9",
+                  "timestamp": "1765715016",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.60e984e3e3c74b54a4934f6539482e1f",
+                  "timestamp": "1765715046",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza This becomes more complex once incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.08c1b51d35a64e28b04a40b9b4424e71",
+                  "timestamp": "1765715076",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Hassan Ahmed In production systems, temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.e2eb03c221aa48c78eeefd8a880044c7",
+                  "timestamp": "1765715106",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ali Raza A counterpoint would be Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.16e8b1ca990b41658c9f74098dee0fc5",
+                  "timestamp": "1765715136",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Usman Tariq In production systems, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.7fb6e93e3cdf4a3e9965acf48e00c7e8",
+                  "timestamp": "1765715166",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.f31d527a38334d3db8ea713d58e61a96",
+                  "timestamp": "1765715196",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Usman Tariq Building on the previous point, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.fa80cebf51ec4ee1838dd6f86520b013",
+                  "timestamp": "1765715226",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan From a graph modeling perspective, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ebfbd325bf074ffea87cea9e075a6c17",
+                  "timestamp": "1765715256",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.026d3330f528460497df4d4b4f94c3ec",
+                  "timestamp": "1765715286",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Muhammad Kashif I agree, especially when considering group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.d1126f237d934201b922a74cd48343ce",
+                  "timestamp": "1765715316",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik In production systems, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.0e2c29764594430ebae0f155839973a3",
+                  "timestamp": "1765715346",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif From a graph modeling perspective, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.42fa24adb4a74e8386b62618c30e5664",
+                  "timestamp": "1765715376",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Muhammad Kashif A counterpoint would be group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.d8304e1412794670b970cb0df927d069",
+                  "timestamp": "1765715406",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Ali Raza From my experience, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.160556c2b00d4a40ab7edf016bcdf58a",
+                  "timestamp": "1765715436",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.e8773f815a20438ab2d5678e9557a04d",
+                  "timestamp": "1765715466",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan In production systems, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.a3e0c60adfec474395790d1c909ce53d",
+                  "timestamp": "1765715496",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza From my experience, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.9df4982e46fb4758a16e56b23ff7c0e7",
+                  "timestamp": "1765715526",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Muhammad Kashif I agree, especially when considering LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.72a2db8303af4bd3996b70696eea0612",
+                  "timestamp": "1765715556",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq This becomes more complex once group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.58eef8201df54914b4d49fdb4b77f369",
+                  "timestamp": "1765715586",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan One challenge I see is LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ca68ff19c456455db9d6d0241867bfe1",
+                  "timestamp": "1765715616",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.66deb3ae03c34a7d95287a98c8bceb8d",
+                  "timestamp": "1765715646",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Sara Khan In production systems, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.6f7084448c3f44b4a5b1d7019b802aa2",
+                  "timestamp": "1765715676",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan A counterpoint would be mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.27a396ea03ca4b9aa258b30f59fd2ab6",
+                  "timestamp": "1765715706",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.54abf4fa487541f2bb940a54c92ec097",
+                  "timestamp": "1765715736",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] A counterpoint would be incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.ce0de81bfc6141a29a0403b5ec510ff2",
+                  "timestamp": "1765715766",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq One challenge I see is incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.c20b5bd2718d492a9bf1d10be3e0e8ad",
+                  "timestamp": "1765715796",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Usman Tariq Building on the previous point, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.d6044e1721a14ccfaf3b46cd12450e93",
+                  "timestamp": "1765715826",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq I agree, especially when considering message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.bd6da18ecc2847f1baaf459fee490785",
+                  "timestamp": "1765715856",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza This becomes more complex once temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c1b11afc489e47edb360f93842907641",
+                  "timestamp": "1765715886",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed This becomes more complex once LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.3d04dce3c7f749c09b89060b1c013a2c",
+                  "timestamp": "1765715916",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif A counterpoint would be group chats introduce multi-hop relationships"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.6fbddb7ae5384a818cc3e54917355316",
+                  "timestamp": "1765715946",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq @Hassan Ahmed From my experience, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.eaf0a44e60134c8c96b6a7eb60cb810f",
+                  "timestamp": "1765715976",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan @Hassan Ahmed One challenge I see is LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.44ff3d4599304db38fff7f497fac2895",
+                  "timestamp": "1765716006",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Ayesha Malik From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.bb9733d84b4145feaacfc11cc0e483b5",
+                  "timestamp": "1765716036",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Ayesha Malik A counterpoint would be Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.206d3611405a4bd1a726d8f5e8e6c461",
+                  "timestamp": "1765716066",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ayesha Malik @Hassan Ahmed One challenge I see is incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.cad43a4c7e1b4de5843f9a7a67e0bce2",
+                  "timestamp": "1765716096",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.205f7f624c9146248c3ac4f4491f8e87",
+                  "timestamp": "1765716126",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Usman Tariq In production systems, message-to-message relationships are preserved"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.341f1119b61d4e88a827dfcec060ad82",
+                  "timestamp": "1765716156",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed @Muhammad Kashif From a graph modeling perspective, Graphiti benefits from dense connectivity"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.785c4012c2834e779070ad76e7428d3b",
+                  "timestamp": "1765716186",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] From a graph modeling perspective, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.64d3c0948a054a54a3d0ccf76caedda5",
+                  "timestamp": "1765716216",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, historical replay improves reasoning"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.443d31639b9642f0a57fef8109c903be",
+                  "timestamp": "1765716246",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.9a10203c20694190a12e101de6f1295a",
+                  "timestamp": "1765716276",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza @Sara Khan In production systems, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.98c2bdc187084f99b2b87bf4abac91c3",
+                  "timestamp": "1765716306",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923118887766",
+                  "id": "wamid.c946edcf1904427eabbc1b23956e91f7",
+                  "timestamp": "1765716336",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] This becomes more complex once temporal ordering is maintained"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.ae54b5f146ac4eb7a34c38016d0cb92d",
+                  "timestamp": "1765716366",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Hassan Ahmed In production systems, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.190fa055e28c4767a6b8820b91044eec",
+                  "timestamp": "1765716396",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] In production systems, sender and receiver edges are explicitly modeled"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.6593688277bd44df8b1dc2c9073ce225",
+                  "timestamp": "1765716426",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif @Sara Khan From my experience, LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923046928830",
+                  "id": "wamid.5b453a9c161d43828546e26e640a94cc",
+                  "timestamp": "1765716456",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Ali Raza In production systems, incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923459991122",
+                  "id": "wamid.c2965c657d394c24b2c7f7ad07735b43",
+                  "timestamp": "1765716486",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Sara Khan In production systems, mentions act as weak receiver signals"
+                  }
+                },
+                {
+                  "from": "923217778899",
+                  "id": "wamid.8b7be5163656428a98691475a19b4d57",
+                  "timestamp": "1765716516",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] I agree, especially when considering LLMs hallucinate less with structured context"
+                  }
+                },
+                {
+                  "from": "923334445566",
+                  "id": "wamid.050db538ac3c46e8b2b049486e2faac1",
+                  "timestamp": "1765716546",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] @Muhammad Kashif This becomes more complex once incremental sync alone is insufficient"
+                  }
+                },
+                {
+                  "from": "923001112233",
+                  "id": "wamid.987f81576e0e462c8f74f4e60d0dd996",
+                  "timestamp": "1765716576",
+                  "type": "text",
+                  "text": {
+                    "body": "[Designing knowledge graphs from WhatsApp conversations using LLMs] Building on the previous point, Graphiti benefits from dense connectivity"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
