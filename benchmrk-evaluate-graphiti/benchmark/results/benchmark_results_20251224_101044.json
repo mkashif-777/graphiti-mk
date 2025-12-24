@@ -1,0 +1,82 @@
+[
+  {
+    "question_id": "string",
+    "question": "string",
+    "ground_truth": "string",
+    "predicted_answer": "Thread structure",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q1",
+    "question": "Who sent the message about knowledge graph construction improving traversal?",
+    "ground_truth": "Muhammad Kashif",
+    "predicted_answer": "No one. The message was about explicit trees improving reasoning in knowledge graph construction, not traversal.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q2",
+    "question": "What was said about parent-child relationships in the WhatsApp discussion?",
+    "ground_truth": "Parent-child relationships improve traversal in knowledge graph construction.",
+    "predicted_answer": "Nothing was mentioned about parent-child relationships in the WhatsApp discussion.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q3",
+    "question": "Who are the participants in whatsapp-group-1?",
+    "ground_truth": "Joe Root, Muhammad Kashif, Babar Azam, Virat Kohli",
+    "predicted_answer": "John, Emma, David",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q4",
+    "question": "Does the message discussing knowledge graph traversal have any replies?",
+    "ground_truth": "Yes, the message has multiple child replies.",
+    "predicted_answer": "No.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q5",
+    "question": "When was the message about knowledge graph traversal sent?",
+    "ground_truth": "The message was sent at Unix timestamp 1765532291.",
+    "predicted_answer": "No specific date mentioned in the context.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q6",
+    "question": "Was there any discussion about improving graph navigation?",
+    "ground_truth": "Yes, the discussion mentioned that parent-child relationships improve traversal in a knowledge graph.",
+    "predicted_answer": "No, but they mentioned explicit trees improve reasoning.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  },
+  {
+    "question_id": "Q7",
+    "question": "Which user in whatsapp-group-1 talked about knowledge graphs and what concept did they mention?",
+    "ground_truth": "Muhammad Kashif talked about knowledge graphs and mentioned parent-child relationships for improved traversal.",
+    "predicted_answer": "User in whatsapp-group-1 mentioned knowledge graphs and concept of explicit trees.",
+    "predicted_sources": [],
+    "exact_match": false,
+    "semantic_similarity": null,
+    "source_node_overlap": null
+  }
+]
