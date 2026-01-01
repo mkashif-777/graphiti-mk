@@ -58,7 +58,7 @@ azure_endpoint = os.environ.get('AZURE_OPENAI_ENDPOINT')
 azure_api_key = os.environ.get('AZURE_OPENAI_API_KEY')
 azure_deployment = os.environ.get('AZURE_OPENAI_DEPLOYMENT', 'gpt-4.1')
 azure_embedding_deployment = os.environ.get(
-    'AZURE_OPENAI_EMBEDDING_DEPLOYMENT', 'text-embedding-3-small'
+    'AZURE_OPENAI_EMBEDDING_DEPLOYMENT', 'Nexus-bge-m3-opensearch-embeddings'
 )
 
 if not azure_endpoint or not azure_api_key:

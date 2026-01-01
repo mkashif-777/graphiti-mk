@@ -1,0 +1,11 @@
+question_id,category,question,ground_truth,predicted_answer,predicted_sources,exact_match,semantic_similarity,source_node_overlap
+1,Factoid,What is the display title of the group?,Ancient Civilizations Study Group,History Buffs,,False,,
+2,Multi-Hop,Who replied to Michael Rodriguez's video about pyramid construction?,Lisa Anderson,No information about Michael Rodriguez's video in the context.,,False,,
+3,Multi-Modal,What is the filename of the research paper shared by David Chen?,roman_empire_administration_research.pdf,No information available.,,False,,
+4,Aggregation,How many unique members sent an audio message?,1,No info available.,,False,,
+5,Temporal,What was the last message sent in the group?,This has been an incredible discussion everyone!,Message 79: Discussing Roman Empire. Interaction detail 18.,,False,,
+6,Null / False-Premise,Why did Sarah Martinez leave the group?,Sarah Martinez never left the group.,There's no information about Sarah Martinez in the given context.,,False,,
+7,Conditional,List the IDs of all reactions sent by Michael Rodriguez.,wamid.event_013;wamid.event_048,"wamid.event_015, wamid.event_035, wamid.event_015",,False,,
+8,Comparison,Who shared more images in the group: Sarah Martinez or David Chen?,Sarah Martinez,I don't have enough information to answer that.,,False,,
+9,Graph-Specific,Which contact mentioned the 'Antikythera mechanism'?,Emma Thompson,Message 20,,False,,
+10,Evidence-Based,What evidence shows the group discussed the Byzantine Empire?,David Chen proposed shifting to it and Sarah mentioned the Hagia Sophia.,"None, they only discussed the Roman Empire.",,False,,

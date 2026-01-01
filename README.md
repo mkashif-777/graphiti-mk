@@ -413,7 +413,7 @@ llm_client = AzureOpenAILLMClient(
 )
 embedder_client = AzureOpenAIEmbedderClient(
     azure_client=azure_client,
-    model="text-embedding-3-small"  # Your Azure embedding deployment name
+    model="Nexus-bge-m3-opensearch-embeddings"  # Your Azure embedding deployment name
 )
 
 # Initialize Graphiti with Azure OpenAI clients
@@ -430,7 +430,7 @@ graphiti = Graphiti(
 
 **Key Points:**
 - Use the standard `AsyncOpenAI` client with Azure's v1 API endpoint format: `https://your-resource-name.openai.azure.com/openai/v1/`
-- The deployment names (e.g., `gpt-5-mini`, `text-embedding-3-small`) should match your Azure OpenAI deployment names
+- The deployment names (e.g., `gpt-5-mini`, `Nexus-bge-m3-opensearch-embeddings`) should match your Azure OpenAI deployment names
 - See `examples/azure-openai/` for a complete working example
 
 Make sure to replace the placeholder values with your actual Azure OpenAI credentials and deployment names.

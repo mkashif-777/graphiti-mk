@@ -1,0 +1,11 @@
+question_id,category,question,answer_type,ground_truth_answer,group_id,user_ids,message_ids
+1,Factoid,What is the display title of the group?,text,Ancient Civilizations Study Group,120363028475123456@g.us,17025551001,wamid.event_001
+2,Multi-Hop,Who replied to Michael Rodriguez's video about pyramid construction?,text,Lisa Anderson,120363028475123456@g.us,17025551005,wamid.event_020
+3,Multi-Modal,What is the filename of the research paper shared by David Chen?,text,roman_empire_administration_research.pdf,120363028475123456@g.us,17025551002,wamid.event_012
+4,Aggregation,How many unique members sent an audio message?,number,1,120363028475123456@g.us,17025551003,wamid.event_024;wamid.event_058
+5,Temporal,What was the last message sent in the group?,text,This has been an incredible discussion everyone!,120363028475123456@g.us,17025551004,wamid.event_064
+6,Null / False-Premise,Why did Sarah Martinez leave the group?,text,Sarah Martinez never left the group.,120363028475123456@g.us,17025551001,
+7,Conditional,List the IDs of all reactions sent by Michael Rodriguez.,list,wamid.event_013;wamid.event_048,120363028475123456@g.us,17025551004,wamid.event_013;wamid.event_048
+8,Comparison,Who shared more images in the group: Sarah Martinez or David Chen?,text,Sarah Martinez,120363028475123456@g.us,17025551001,wamid.event_010
+9,Graph-Specific,Which contact mentioned the 'Antikythera mechanism'?,text,Emma Thompson,120363028475123456@g.us,17025551003,wamid.event_054
+10,Evidence-Based,What evidence shows the group discussed the Byzantine Empire?,text,David Chen proposed shifting to it and Sarah mentioned the Hagia Sophia.,120363028475123456@g.us,17025551002;17025551001,wamid.event_021;wamid.event_022

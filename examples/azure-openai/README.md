@@ -37,7 +37,7 @@ NEO4J_PASSWORD=your-password
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com
 AZURE_OPENAI_API_KEY=your-api-key-here
 AZURE_OPENAI_DEPLOYMENT=gpt-5-mini
-AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=Nexus-bge-m3-opensearch-embeddings
 ```
 
 ### 3. Azure OpenAI Model Deployments

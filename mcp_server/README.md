@@ -108,7 +108,7 @@ The MCP server comes with sensible defaults:
 - **Transport**: HTTP (accessible at `http://localhost:8000/mcp/`)
 - **Database**: FalkorDB (combined in single container with MCP server)
 - **LLM**: OpenAI with model gpt-5-mini
-- **Embedder**: OpenAI text-embedding-3-small
+- **Embedder**: OpenAI Nexus-bge-m3-opensearch-embeddings
 
 ### Database Configuration
 

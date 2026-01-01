@@ -313,7 +313,7 @@ class EmbedderFactory:
 
                 return AzureOpenAIEmbedderClient(
                     azure_client=azure_client,
-                    model=config.model or 'text-embedding-3-small',
+                    model=config.model or 'Nexus-bge-m3-opensearch-embeddings',
                 )
 
             case 'gemini':

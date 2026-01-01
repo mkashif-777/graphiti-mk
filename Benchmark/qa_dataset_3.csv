@@ -1,0 +1,29 @@
+question_id,category,question,answer_type,ground_truth_answer,group_id,user_ids,message_ids
+1,Factoid / Single-Hop,What is the name of the user with phone number ID 17025551001?,text,Sarah Martinez,120363028475123456@g.us,17025551001,wamid.event_001
+2,Factoid / Single-Hop,Who sent the message 'Welcome everyone! Let's start our discussion...'?,text,Sarah Martinez,120363028475123456@g.us,17025551001,wamid.event_004
+3,Factoid / Single-Hop,What was the very first system message event in the chat history?,text,group_title_changed,120363028475123456@g.us,17025551001,wamid.event_001
+4,Factoid / Single-Hop,Which user has the ID 17025551005?,text,Lisa Anderson,120363028475123456@g.us,17025551005,
+5,Multi-Hop,Who replied to Sarah's initial message about the Roman administrative systems?,text,David Chen,120363028475123456@g.us,17025551002,wamid.event_005
+6,Multi-Hop,Who replied to David Chen's message about Roman road networks?,text,Emma Thompson,120363028475123456@g.us,17025551003,wamid.event_006
+7,Multi-Hop,Who reacted to Sarah Martinez's photo of the Roman Colosseum with a 🏛️ emoji?,text,Michael Rodriguez,120363028475123456@g.us,17025551004,wamid.event_013
+8,Multi-Hop,Which user replied to Emma Thompson's point about Marcus Aurelius and Stoic philosophy?,text,David Chen,120363028475123456@g.us,17025551002,wamid.event_016
+9,Multi-Hop,Who responded to Michael Rodriguez's video about pyramid construction?,text,Lisa Anderson,120363028475123456@g.us,17025551005,wamid.event_020
+10,Temporal / Sequence,Who was the second person to join the group?,text,David Chen,120363028475123456@g.us,17025551002,wamid.event_002
+11,Temporal / Sequence,Who sent a message shortly after the group title was updated in the second session?,text,Emma Thompson,120363028475123456@g.us,17025551003,wamid.event_005
+12,Aggregation,How many unique documents were shared across both chat transcripts?,number,8,120363028475123456@g.us,,
+=14,Aggregation,How many total members are in the participants list?,number,5,120363028475123456@g.us,,
+15,Aggregation,Count the number of times Emma Thompson sent a message in the entire dataset.,number,28,120363028475123456@g.us,17025551003,
+16,Aggregation,How many images were shared in total?,number,8,120363028475123456@g.us,,
+17,Comparison,Who sent more messages: Emma Thompson or Michael Rodriguez?,text,Emma Thompson,120363028475123456@g.us,17025551003;17025551004,
+18,Comparison,"Between David Chen and Sarah Martinez, who shared more documents?",text,David Chen,120363028475123456@g.us,17025551002;17025551001,
+19,Comparison,Which participant was the most active in the 'Ancient Egypt' topic discussions?,text,Emma Thompson,120363028475123456@g.us,17025551003,
+20,Comparison,Who sent the longest text message in the initial transcript?,text,Sarah Martinez,120363028475123456@g.us,17025551001,wamid.event_004
+21,Comparison,Who used more diverse emojis in their reactions: Michael or David?,text,Michael Rodriguez,120363028475123456@g.us,17025551004,
+22,Null / False-Premise,Why did John Smith leave the group?,text,John Smith is not a member of this group and there is no record of him leaving.,120363028475123456@g.us,,
+23,Null / False-Premise,What was the reason for the group being deleted?,text,The group was never deleted.,120363028475123456@g.us,,
+24,Null / False-Premise,List the details of the message where Sarah mentioned the 'Industrial Revolution'.,text,The Industrial Revolution was never mentioned; the focus was on Ancient Civilizations.,120363028475123456@g.us,,
+25,Null / False-Premise,Which user sent an Excel spreadsheet to the group?,text,No Excel spreadsheet was shared; only PDFs and images.,120363028475123456@g.us,,
+26,Null / False-Premise,When did the group change its name to 'Modern History'?,text,The group name was never changed to 'Modern History'.,120363028475123456@g.us,,
+27,Relationship / Social Graph,Which contact has the most incoming replies directed at them?,text,Sarah Martinez,120363028475123456@g.us,17025551001,
+28,Relationship / Social Graph,Identify the user who acted as the primary moderator or group starter.,text,Sarah Martinez,120363028475123456@g.us,17025551001,wamid.event_001
+29,Relationship / Social Graph,Who reacted to Lisa Anderson's messages the most?,text,Emma Thompson,120363028475123456@g.us,17025551003,

@@ -3,7 +3,8 @@ import csv
 import requests
 from datetime import datetime
 
-API_URL = "http://69.48.159.10:8102/query"
+# API_URL = "http://69.48.159.10:8102/query"
+API_URL = "http://localhost:8102/query"
 
 results = []
 
@@ -18,8 +19,15 @@ with open("qa_dataset.jsonl", "r", encoding="utf-8") as f:
         # ---- Call Query API ----
         r = requests.post(
             API_URL,
-            json={"query": item["question"]},
-            timeout=30
+            # json={"query": item["question"]},
+            json={
+                "query": item["question"],
+                "answer_type": item["answer_type"],
+                "expected_group_id": item["source_nodes"]["group_id"],
+                "expected_user_ids": item["source_nodes"].get("user_ids", []),
+                "expected_message_ids": item["source_nodes"].get("message_ids", [])
+            },
+            timeout=120
         )
         r.raise_for_status()
         pred = r.json()

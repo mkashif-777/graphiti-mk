@@ -34,7 +34,8 @@ def embed_texts(texts, batch_size=64):
         batch = texts[i:i+batch_size]
 
         r = requests.post(
-            "http://69.48.159.10:30001/v1/embeddings",
+            # "http://69.48.159.10:30001/v1/embeddings",
+            "http://localhost:30001/v1/embeddings",
             json={"input": batch}
         )
 

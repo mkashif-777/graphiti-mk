@@ -8,8 +8,10 @@ from neo4j import GraphDatabase
 app = FastAPI()
 
 # ---- CONFIG ----
-EMBEDDING_URL = "http://69.48.159.10:30001/v1/embeddings"
-LLM_URL = "http://69.48.159.10:30000/v1/chat/completions"
+# EMBEDDING_URL = "http://69.48.159.10:30001/v1/embeddings"
+EMBEDDING_URL = "http://localhost:30001/v1/embeddings"
+# LLM_URL = "http://69.48.159.10:30000/v1/chat/completions"
+LLM_URL = "http://localhost:30000/v1/chat/completions"
 
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_AUTH = ("neo4j", "test1234")
@@ -21,25 +23,10 @@ class QueryRequest(BaseModel):
     query: str
 
 # ---- HELPERS ----
-# def embed_query(text: str):
-#     r = requests.post(
-#         EMBEDDING_URL,
-#         json={"input": text}
-#     )
-#     r.raise_for_status()
-    # payload = r.json()
-
-    # adapt once your embedding server is confirmed
-    # return payload["embedding"]
-
-    # resp = r.json()
-
-    # embedding = resp["data"][0]["embedding"]
-    # return embedding
-
 def embed_query(text: str) -> list[float]:
     r = requests.post(
-        "http://69.48.159.10:30001/v1/embeddings",
+        # "http://69.48.159.10:30001/v1/embeddings",
+        "http://localhost:30001/v1/embeddings",
         headers={"Content-Type": "application/json"},
         json={
             "model": "Nexus-bge-m3-opensearch-embeddings",
@@ -58,9 +45,12 @@ def retrieve_graph_context(embedding):
       $embedding
     )
     YIELD node, score
-    MATCH (node)<-[:REPLY_TO*0..2]-(related)
-    RETURN node.body AS main,
-           collect(related.body) AS related
+    MATCH (node)<-[:SENT]-(sender_main)
+    OPTIONAL MATCH (node)<-[:REPLIED_TO*1..2]-(related)
+    OPTIONAL MATCH (related)<-[:SENT]-(sender_related)
+    RETURN node.body AS main_body,
+           sender_main.name AS main_sender,
+           collect({body: related.body, sender: sender_related.name}) AS related_msgs
     """
 
     with driver.session() as session:
@@ -70,8 +60,13 @@ def retrieve_graph_context(embedding):
 def build_prompt(context, query):
     lines = []
     for row in context:
-        lines.append(row["main"])
-        lines.extend(row["related"])
+        # Format main message
+        lines.append(f"{row['main_sender']}: {row['main_body']}")
+        
+        # Format related messages
+        for rel in row['related_msgs']:
+            if rel['body']: # check if body exists (optional match might return nulls in list)
+                lines.append(f"{rel['sender']}: {rel['body']}")
 
     context_text = "\n".join(set(lines))
 
