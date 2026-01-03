@@ -1,3 +1,7 @@
+"""
+Ingest WhatsApp data into Graphiti.
+"""
+
 import asyncio
 import json
 import logging
@@ -206,7 +210,7 @@ def get_graphiti_client() -> Graphiti:
     
     # LLM Config
     openai_api_key = os.environ.get('OPENAI_API_KEY', 'dummy_local_key')
-    openai_base_url = os.environ.get('OPENAI_BASE_URL', 'http://localhost:30000/v1')
+    openai_base_url = os.environ.get('OPENAI_BASE_URL', 'http://69.48.159.10:30000/v1')
     
     # Fix common miss-configuration where /v1 is missing from local LLM base URL
     if openai_base_url and '/v1' not in openai_base_url:
@@ -282,8 +286,8 @@ def get_graphiti_client() -> Graphiti:
              s.connect((host, port))
              s.close()
          except (socket.timeout, socket.error):
-             logger.warning(f"Could not connect to {embedder_base_url}. Attempting fallback to http://localhost:30001/v1")
-             embedder_base_url = 'http://localhost:30001/v1'
+             logger.warning(f"Could not connect to {embedder_base_url}. Attempting fallback to http://69.48.159.10:30001/v1")
+             embedder_base_url = 'http://69.48.159.10:30001/v1'
 
     embedder_client = AsyncOpenAI(
         api_key='dummy_embed_key',
