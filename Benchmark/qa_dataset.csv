@@ -1,12 +1,14 @@
 question_id,category,question,answer_type,ground_truth_answer,group_id,user_ids,message_ids
 Q001,Factoid / Single-Hop,Who changed the group title to 'Ancient Civilizations Study Group'?,Entity,Sarah Martinez,120363028475123456g.us,17025551001,wamid.event_001
 Q002,Factoid / Single-Hop,What is the title of the research paper shared by David Chen?,Text,roman_empire_administration_research.pdf,120363028475123456g.us,17025551002,wamid.event_012
+Q002a,Factoid / Single-Hop,Which research paper was shared by David Chen?,Text,roman_empire_administration_research.pdf,120363028475123456g.us,17025551002,wamid.event_012
 Q003,Factoid / Single-Hop,"Which ancient structure does Michael Rodriguez mention was the tallest for 3,800 years?",Entity,The Great Pyramid,120363028475123456g.us,17025551004,wamid.event_007
 Q004,Factoid / Single-Hop,Who suggested reading 'SPQR' by Mary Beard?,Entity,Lisa Anderson,120363028475123456g.us,17025551005,wamid.event_060
 Q005,Factoid / Single-Hop,What did Sarah Martinez find remarkable about the Roman coin from 27 BC?,Text,The detail is remarkable,120363028475123456g.us,17025551001,wamid.event_010
 Q006,Definition / Terminology,"In the context of ancient Greek philosophy mentioned by Lisa, what is a 'Socratic method'?",Explanation,"A method of inquiry and discussion between individuals, based on asking and answering questions to stimulate critical thinking.",120363028475123456g.us,17025551005,wamid.event_014
 Q007,Definition / Terminology,What is 'Cuneiform' according to David Chen's message?,Explanation,"The earliest examples of written language, invented in Mesopotamia around 3200 BC.",120363028475123456g.us,17025551002,wamid.event_041
 Q008,Definition / Terminology,What was the 'secret weapon' of the Byzantine Empire mentioned by Michael Rodriguez?,Text,Greek Fire,120363028475123456g.us,17025551004,wamid.event_023
+Q008a,Definition / Terminology,What was the 'secret weapon' of the Byzantine Empire?,Text,Greek Fire,120363028475123456g.us,17025551004,wamid.event_023
 Q009,Definition / Terminology,What is a 'thermopolium' based on the archaeological discovery in Pompeii?,Text,An ancient Roman fast-food restaurant.,120363028475123456g.us,17025551001,wamid.event_027
 Q010,Multi-Hop,Who reacted with a '💯' emoji to David Chen's comment about Cicero?,Entity,Sarah Martinez,120363028475123456g.us,17025551001,"wamid.event_017,wamid.event_016"
 Q011,Multi-Hop,Which user replied to Lisa Anderson's question about teaching ancient civilizations thematically?,Entity,David Chen,120363028475123456g.us,17025551002,"wamid.event_046,wamid.event_045"
@@ -26,7 +28,7 @@ Q024,Temporal,What was the very first message sent after the group title was cha
 Q025,Temporal,When did Lisa Anderson suggest reading 'SPQR'?,Timestamp,1735481780,120363028475123456g.us,17025551005,wamid.event_060
 Q026,Temporal,What was discussed immediately after Michael Rodriguez shared a documentary on the Library of Alexandria?,Text,"Emma Thompson commented on all the lost knowledge (scientific texts, philosophical works, etc.).",120363028475123456g.us,17025551003,wamid.event_049
 Q027,Temporal,Who sent the last message in the study group?,Entity,Lisa Anderson,120363028475123456g.us,17025551005,wamid.event_065
-Q028,Numerical Reasoning / Inference,How many members are in the 'Ancient Civilizations Study Group' based on join events?,Number,5,120363028475123456g.us,all,"wamid.event_001,wamid.event_002,wamid.event_003,wamid.event_008"
+Q028,Numerical Reasoning / Inference,How many members are in the 'Ancient Civilizations Study Group' based on join events?,Number,3,120363028475123456g.us,all,"wamid.event_002,wamid.event_003,wamid.event_008"
 Q029,Numerical Reasoning / Inference,How many reactions were sent in total throughout the conversation?,Number,15,120363028475123456g.us,all,reactions
 Q030,Numerical Reasoning / Inference,"Based on the timestamps, which user sent the most messages within the first hour of the group's existence?",Entity,"Sarah Martinez (She sent event 1, 4, 10, 17...)",120363028475123456g.us,17025551001,all
 Q031,Null / False-Premise,What did Michael Rodriguez say about the Great Wall of India?,Null,He never mentioned the Great Wall of India; Emma Thompson mentioned the Great Wall of China.,120363028475123456g.us,17025551004,wamid.event_040
