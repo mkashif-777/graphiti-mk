@@ -3,8 +3,8 @@ import requests
 import os
 from datetime import datetime
 
-API_URL = "http://localhost:8102/query"
-LLM_URL = "http://localhost:30000/v1/chat/completions"
+API_URL = "http://localhost:8000/query"
+LLM_URL = "http://69.48.159.10:30000/v1/chat/completions"
 INPUT_FILE = "qa_dataset.csv"
 OUTPUT_DIR = "results"
 
@@ -74,14 +74,22 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
             continue
 
         # ---- Evaluation ----
-        exact_match = pred["answer"].strip().lower() == item["ground_truth_answer"].strip().lower()
+        predicted_answer = pred.get("answer", "")
+        ground_truth = item["ground_truth_answer"]
         
-        # Semantic evaluation via LLM
-        is_correct = evaluate_semantic_similarity(
-            item["question"], 
-            item["ground_truth_answer"], 
-            pred["answer"]
-        )
+        if not predicted_answer:
+            print(f"Warning: No answer returned for question {item['question_id']}. Response: {pred}")
+            exact_match = False
+            is_correct = False
+        else:
+            exact_match = predicted_answer.strip().lower() == ground_truth.strip().lower()
+            
+            # Semantic evaluation via LLM
+            is_correct = evaluate_semantic_similarity(
+                item["question"], 
+                ground_truth, 
+                predicted_answer
+            )
 
         results.append({
             "question_id": item["question_id"],
